@@ -1,0 +1,4533 @@
+{
+"_source": "반려동물 등록 누계: 농림축산검역본부 2022.12.31 (data.go.kr 15125454) / 세대: 행정안전부 주민등록 2026.09.30 (data.go.kr 15097974)",
+"regions": {
+"서울": {
+"label": "서울특별시",
+"sido": "서울",
+"sidoName": "서울특별시",
+"level": "sido",
+"households": 4524905,
+"onePct": 45,
+"dogs": 537884,
+"cats": 7278,
+"per100": 11.9,
+"parts": [
+{
+"name": "관악구",
+"households": 291409,
+"onePct": 64,
+"dogs": 26027
+},
+{
+"name": "송파구",
+"households": 289024,
+"onePct": 38,
+"dogs": 33396
+},
+{
+"name": "강서구",
+"households": 274904,
+"onePct": 47,
+"dogs": 33280
+},
+{
+"name": "강남구",
+"households": 244802,
+"onePct": 40,
+"dogs": 34402
+},
+{
+"name": "강동구",
+"households": 223302,
+"onePct": 38,
+"dogs": 25292
+},
+{
+"name": "노원구",
+"households": 217306,
+"onePct": 38,
+"dogs": 26942
+},
+{
+"name": "은평구",
+"households": 214972,
+"onePct": 42,
+"dogs": 27690
+},
+{
+"name": "성북구",
+"households": 199708,
+"onePct": 43,
+"dogs": 23921
+}
+],
+"rankDogs": 2,
+"rankPer100": 7,
+"rankOf": 17
+},
+"부산": {
+"label": "부산광역시",
+"sido": "부산",
+"sidoName": "부산광역시",
+"level": "sido",
+"households": 1583244,
+"onePct": 43,
+"dogs": 195988,
+"cats": 854,
+"per100": 12.4,
+"parts": [
+{
+"name": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551
+},
+{
+"name": "해운대구",
+"households": 169976,
+"onePct": 37,
+"dogs": 25980
+},
+{
+"name": "사하구",
+"households": 139035,
+"onePct": 43,
+"dogs": 17669
+},
+{
+"name": "동래구",
+"households": 122431,
+"onePct": 37,
+"dogs": 15277
+},
+{
+"name": "북구",
+"households": 122225,
+"onePct": 38,
+"dogs": 13754
+},
+{
+"name": "남구",
+"households": 122211,
+"onePct": 41,
+"dogs": 17655
+},
+{
+"name": "금정구",
+"households": 105412,
+"onePct": 47,
+"dogs": 11646
+},
+{
+"name": "연제구",
+"households": 101159,
+"onePct": 41,
+"dogs": 11175
+}
+],
+"rankDogs": 4,
+"rankPer100": 6,
+"rankOf": 17
+},
+"대구": {
+"label": "대구광역시",
+"sido": "대구",
+"sidoName": "대구광역시",
+"level": "sido",
+"households": 1123626,
+"onePct": 41,
+"dogs": 128224,
+"cats": 1061,
+"per100": 11.4,
+"parts": [
+{
+"name": "달서구",
+"households": 240343,
+"onePct": 39,
+"dogs": 29463
+},
+{
+"name": "북구",
+"households": 194547,
+"onePct": 42,
+"dogs": 21203
+},
+{
+"name": "수성구",
+"households": 178111,
+"onePct": 34,
+"dogs": 21878
+},
+{
+"name": "동구",
+"households": 166940,
+"onePct": 43,
+"dogs": 17977
+},
+{
+"name": "달성군",
+"households": 113922,
+"onePct": 37,
+"dogs": 12138
+},
+{
+"name": "서구",
+"households": 85693,
+"onePct": 47,
+"dogs": 10480
+},
+{
+"name": "남구",
+"households": 79270,
+"onePct": 53,
+"dogs": 10249
+},
+{
+"name": "중구",
+"households": 51279,
+"onePct": 47,
+"dogs": 4836
+}
+],
+"rankDogs": 6,
+"rankPer100": 10,
+"rankOf": 17
+},
+"인천": {
+"label": "인천광역시",
+"sido": "인천",
+"sidoName": "인천광역시",
+"level": "sido",
+"households": 1420062,
+"onePct": 40,
+"dogs": 202883,
+"cats": 894,
+"per100": 14.3,
+"parts": [
+{
+"name": "남동구",
+"households": 227765,
+"onePct": 42,
+"dogs": 35709
+},
+{
+"name": "부평구",
+"households": 226872,
+"onePct": 39,
+"dogs": 36212
+},
+{
+"name": "미추홀구",
+"households": 208247,
+"onePct": 45,
+"dogs": 31146
+},
+{
+"name": "서해구",
+"households": 176353,
+"onePct": 37,
+"dogs": null
+},
+{
+"name": "연수구",
+"households": 169636,
+"onePct": 31,
+"dogs": 22124
+},
+{
+"name": "계양구",
+"households": 129449,
+"onePct": 39,
+"dogs": 20670
+},
+{
+"name": "검단구",
+"households": 113858,
+"onePct": 30,
+"dogs": null
+},
+{
+"name": "영종구",
+"households": 67950,
+"onePct": 47,
+"dogs": null
+}
+],
+"rankDogs": 3,
+"rankPer100": 3,
+"rankOf": 17
+},
+"광주": {
+"label": "광주광역시",
+"sido": "광주",
+"sidoName": "광주광역시",
+"level": "sido",
+"households": 662972,
+"onePct": 43,
+"dogs": 69442,
+"cats": 410,
+"per100": 10.5,
+"parts": [
+{
+"name": "북구",
+"households": 203871,
+"onePct": 44,
+"dogs": 20300
+},
+{
+"name": "광산구",
+"households": 173234,
+"onePct": 39,
+"dogs": 20503
+},
+{
+"name": "서구",
+"households": 133991,
+"onePct": 44,
+"dogs": 14793
+},
+{
+"name": "남구",
+"households": 96154,
+"onePct": 40,
+"dogs": 9391
+},
+{
+"name": "동구",
+"households": 55722,
+"onePct": 51,
+"dogs": 4455
+}
+],
+"rankDogs": 14,
+"rankPer100": 13,
+"rankOf": 17
+},
+"대전": {
+"label": "대전광역시",
+"sido": "대전",
+"sidoName": "대전광역시",
+"level": "sido",
+"households": 707002,
+"onePct": 45,
+"dogs": 94725,
+"cats": 1185,
+"per100": 13.4,
+"parts": [
+{
+"name": "서구",
+"households": 225589,
+"onePct": 44,
+"dogs": 31950
+},
+{
+"name": "유성구",
+"households": 176361,
+"onePct": 43,
+"dogs": 19774
+},
+{
+"name": "동구",
+"households": 114026,
+"onePct": 49,
+"dogs": 14620
+},
+{
+"name": "중구",
+"households": 109918,
+"onePct": 44,
+"dogs": 16522
+},
+{
+"name": "대덕구",
+"households": 81108,
+"onePct": 44,
+"dogs": 11859
+}
+],
+"rankDogs": 10,
+"rankPer100": 4,
+"rankOf": 17
+},
+"울산": {
+"label": "울산광역시",
+"sido": "울산",
+"sidoName": "울산광역시",
+"level": "sido",
+"households": 502539,
+"onePct": 38,
+"dogs": 57837,
+"cats": 274,
+"per100": 11.5,
+"parts": [
+{
+"name": "남구",
+"households": 144555,
+"onePct": 41,
+"dogs": 16468
+},
+{
+"name": "울주군",
+"households": 103739,
+"onePct": 40,
+"dogs": 13002
+},
+{
+"name": "중구",
+"households": 95171,
+"onePct": 39,
+"dogs": 10797
+},
+{
+"name": "북구",
+"households": 90568,
+"onePct": 31,
+"dogs": 9673
+},
+{
+"name": "동구",
+"households": 68506,
+"onePct": 39,
+"dogs": 7897
+}
+],
+"rankDogs": 15,
+"rankPer100": 8,
+"rankOf": 17
+},
+"세종": {
+"label": "세종특별자치시",
+"sido": "세종",
+"sidoName": "세종특별자치시",
+"level": "sido",
+"households": 165887,
+"onePct": 35,
+"dogs": 14670,
+"cats": 337,
+"per100": 8.8,
+"parts": [
+{
+"name": "조치원읍",
+"households": 21201,
+"onePct": 51,
+"dogs": null
+},
+{
+"name": "고운동",
+"households": 12863,
+"onePct": 20,
+"dogs": null
+},
+{
+"name": "종촌동",
+"households": 10716,
+"onePct": 27,
+"dogs": null
+},
+{
+"name": "다정동",
+"households": 10691,
+"onePct": 25,
+"dogs": null
+},
+{
+"name": "도담동",
+"households": 10239,
+"onePct": 33,
+"dogs": null
+},
+{
+"name": "새롬동",
+"households": 9684,
+"onePct": 22,
+"dogs": null
+},
+{
+"name": "해밀동",
+"households": 9078,
+"onePct": 27,
+"dogs": null
+},
+{
+"name": "소담동",
+"households": 8433,
+"onePct": 27,
+"dogs": null
+}
+],
+"rankDogs": 17,
+"rankPer100": 17,
+"rankOf": 17
+},
+"경기": {
+"label": "경기도",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "sido",
+"households": 6191729,
+"onePct": 38,
+"dogs": 898590,
+"cats": 8953,
+"per100": 14.5,
+"parts": [
+{
+"name": "수원시",
+"households": 546855,
+"onePct": 41,
+"dogs": 75009
+},
+{
+"name": "고양시",
+"households": 468585,
+"onePct": 36,
+"dogs": 73953
+},
+{
+"name": "용인시",
+"households": 450991,
+"onePct": 31,
+"dogs": 66533
+},
+{
+"name": "화성시",
+"households": 434633,
+"onePct": 37,
+"dogs": 49820
+},
+{
+"name": "성남시",
+"households": 407918,
+"onePct": 39,
+"dogs": 59674
+},
+{
+"name": "부천시",
+"households": 344196,
+"onePct": 38,
+"dogs": 55995
+},
+{
+"name": "남양주시",
+"households": 309610,
+"onePct": 33,
+"dogs": 50994
+},
+{
+"name": "평택시",
+"households": 302078,
+"onePct": 45,
+"dogs": 37182
+}
+],
+"rankDogs": 1,
+"rankPer100": 2,
+"rankOf": 17
+},
+"강원": {
+"label": "강원특별자치도",
+"sido": "강원",
+"sidoName": "강원특별자치도",
+"level": "sido",
+"households": 776594,
+"onePct": 47,
+"dogs": 98090,
+"cats": 469,
+"per100": 12.6,
+"parts": [
+{
+"name": "원주시",
+"households": 179243,
+"onePct": 43,
+"dogs": 24558
+},
+{
+"name": "춘천시",
+"households": 139667,
+"onePct": 44,
+"dogs": 20108
+},
+{
+"name": "강릉시",
+"households": 106098,
+"onePct": 46,
+"dogs": 13521
+},
+{
+"name": "동해시",
+"households": 43573,
+"onePct": 45,
+"dogs": 4564
+},
+{
+"name": "속초시",
+"households": 41071,
+"onePct": 47,
+"dogs": 6803
+},
+{
+"name": "홍천군",
+"households": 35112,
+"onePct": 48,
+"dogs": 4079
+},
+{
+"name": "삼척시",
+"households": 33423,
+"onePct": 52,
+"dogs": 3075
+},
+{
+"name": "횡성군",
+"households": 24175,
+"onePct": 47,
+"dogs": 2188
+}
+],
+"rankDogs": 9,
+"rankPer100": 5,
+"rankOf": 17
+},
+"충북": {
+"label": "충청북도",
+"sido": "충북",
+"sidoName": "충청북도",
+"level": "sido",
+"households": 809354,
+"onePct": 46,
+"dogs": 92730,
+"cats": 697,
+"per100": 11.5,
+"parts": [
+{
+"name": "청주시",
+"households": 415906,
+"onePct": 44,
+"dogs": 46216
+},
+{
+"name": "충주시",
+"households": 105369,
+"onePct": 46,
+"dogs": 14714
+},
+{
+"name": "제천시",
+"households": 67211,
+"onePct": 48,
+"dogs": 7551
+},
+{
+"name": "음성군",
+"households": 52696,
+"onePct": 52,
+"dogs": 5630
+},
+{
+"name": "진천군",
+"households": 43479,
+"onePct": 47,
+"dogs": 5630
+},
+{
+"name": "옥천군",
+"households": 26767,
+"onePct": 47,
+"dogs": 2958
+},
+{
+"name": "영동군",
+"households": 23960,
+"onePct": 51,
+"dogs": 1650
+},
+{
+"name": "괴산군",
+"households": 22065,
+"onePct": 55,
+"dogs": 2721
+}
+],
+"rankDogs": 11,
+"rankPer100": 9,
+"rankOf": 17
+},
+"충남": {
+"label": "충청남도",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "sido",
+"households": 1073853,
+"onePct": 46,
+"dogs": 117876,
+"cats": 853,
+"per100": 11.0,
+"parts": [
+{
+"name": "천안시",
+"households": 322739,
+"onePct": 45,
+"dogs": 37356
+},
+{
+"name": "아산시",
+"households": 172774,
+"onePct": 43,
+"dogs": 21104
+},
+{
+"name": "당진시",
+"households": 86915,
+"onePct": 47,
+"dogs": 9764
+},
+{
+"name": "서산시",
+"households": 84274,
+"onePct": 43,
+"dogs": 8604
+},
+{
+"name": "논산시",
+"households": 56880,
+"onePct": 50,
+"dogs": 8044
+},
+{
+"name": "공주시",
+"households": 53977,
+"onePct": 51,
+"dogs": 4941
+},
+{
+"name": "홍성군",
+"households": 51488,
+"onePct": 45,
+"dogs": 4832
+},
+{
+"name": "보령시",
+"households": 48906,
+"onePct": 49,
+"dogs": 4471
+}
+],
+"rankDogs": 8,
+"rankPer100": 11,
+"rankOf": 17
+},
+"전북": {
+"label": "전북특별자치도",
+"sido": "전북",
+"sidoName": "전북특별자치도",
+"level": "sido",
+"households": 874457,
+"onePct": 47,
+"dogs": 83412,
+"cats": 421,
+"per100": 9.5,
+"parts": [
+{
+"name": "전주시",
+"households": 297505,
+"onePct": 43,
+"dogs": 31168
+},
+{
+"name": "익산시",
+"households": 134348,
+"onePct": 46,
+"dogs": 13486
+},
+{
+"name": "군산시",
+"households": 127293,
+"onePct": 45,
+"dogs": 14293
+},
+{
+"name": "정읍시",
+"households": 54653,
+"onePct": 51,
+"dogs": 4981
+},
+{
+"name": "완주군",
+"households": 50634,
+"onePct": 46,
+"dogs": 4588
+},
+{
+"name": "김제시",
+"households": 44785,
+"onePct": 53,
+"dogs": 4171
+},
+{
+"name": "남원시",
+"households": 39798,
+"onePct": 50,
+"dogs": 2938
+},
+{
+"name": "고창군",
+"households": 28339,
+"onePct": 54,
+"dogs": 1818
+}
+],
+"rankDogs": 13,
+"rankPer100": 15,
+"rankOf": 17
+},
+"전남": {
+"label": "전라남도",
+"sido": "전남",
+"sidoName": "전라남도",
+"level": "sido",
+"households": 916274,
+"onePct": 48,
+"dogs": 91365,
+"cats": 116,
+"per100": 10.0,
+"parts": [
+{
+"name": "순천시",
+"households": 128011,
+"onePct": 40,
+"dogs": 15047
+},
+{
+"name": "여수시",
+"households": 127117,
+"onePct": 43,
+"dogs": 11702
+},
+{
+"name": "목포시",
+"households": 102492,
+"onePct": 48,
+"dogs": 10679
+},
+{
+"name": "광양시",
+"households": 74408,
+"onePct": 42,
+"dogs": 6567
+},
+{
+"name": "나주시",
+"households": 60232,
+"onePct": 49,
+"dogs": 4755
+},
+{
+"name": "무안군",
+"households": 46622,
+"onePct": 45,
+"dogs": 2894
+},
+{
+"name": "고흥군",
+"households": 35122,
+"onePct": 55,
+"dogs": 2855
+},
+{
+"name": "해남군",
+"households": 34481,
+"onePct": 52,
+"dogs": 4869
+}
+],
+"rankDogs": 12,
+"rankPer100": 14,
+"rankOf": 17
+},
+"경북": {
+"label": "경상북도",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "sido",
+"households": 1304123,
+"onePct": 48,
+"dogs": 121215,
+"cats": 861,
+"per100": 9.3,
+"parts": [
+{
+"name": "포항시",
+"households": 240723,
+"onePct": 42,
+"dogs": 24191
+},
+{
+"name": "구미시",
+"households": 195556,
+"onePct": 44,
+"dogs": 22771
+},
+{
+"name": "경산시",
+"households": 133541,
+"onePct": 47,
+"dogs": 13169
+},
+{
+"name": "경주시",
+"households": 127133,
+"onePct": 47,
+"dogs": 11001
+},
+{
+"name": "안동시",
+"households": 81460,
+"onePct": 50,
+"dogs": 7084
+},
+{
+"name": "김천시",
+"households": 69002,
+"onePct": 47,
+"dogs": 5699
+},
+{
+"name": "칠곡군",
+"households": 53537,
+"onePct": 48,
+"dogs": 7235
+},
+{
+"name": "영천시",
+"households": 53414,
+"onePct": 54,
+"dogs": 3830
+}
+],
+"rankDogs": 7,
+"rankPer100": 16,
+"rankOf": 17
+},
+"경남": {
+"label": "경상남도",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "sido",
+"households": 1559208,
+"onePct": 43,
+"dogs": 168121,
+"cats": 855,
+"per100": 10.8,
+"parts": [
+{
+"name": "창원시",
+"households": 464666,
+"onePct": 40,
+"dogs": 51262
+},
+{
+"name": "김해시",
+"households": 241755,
+"onePct": 37,
+"dogs": 29279
+},
+{
+"name": "양산시",
+"households": 167332,
+"onePct": 39,
+"dogs": 18369
+},
+{
+"name": "진주시",
+"households": 163600,
+"onePct": 44,
+"dogs": 16493
+},
+{
+"name": "거제시",
+"households": 107474,
+"onePct": 40,
+"dogs": 13524
+},
+{
+"name": "통영시",
+"households": 59541,
+"onePct": 47,
+"dogs": 7769
+},
+{
+"name": "사천시",
+"households": 56746,
+"onePct": 48,
+"dogs": 5434
+},
+{
+"name": "밀양시",
+"households": 54294,
+"onePct": 51,
+"dogs": 5814
+}
+],
+"rankDogs": 5,
+"rankPer100": 12,
+"rankOf": 17
+},
+"제주": {
+"label": "제주특별자치도",
+"sido": "제주",
+"sidoName": "제주특별자치도",
+"level": "sido",
+"households": 317887,
+"onePct": 44,
+"dogs": 52807,
+"cats": 2965,
+"per100": 16.6,
+"parts": [
+{
+"name": "제주시",
+"households": 228727,
+"onePct": 43,
+"dogs": 39440
+},
+{
+"name": "서귀포시",
+"households": 89160,
+"onePct": 46,
+"dogs": 13367
+}
+],
+"rankDogs": 16,
+"rankPer100": 1,
+"rankOf": 17
+},
+"수원": {
+"label": "수원시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 546855,
+"onePct": 41,
+"dogs": 75009,
+"cats": 766,
+"per100": 13.7,
+"parts": [
+{
+"name": "인계동",
+"households": 25197,
+"onePct": 57
+},
+{
+"name": "광교1동",
+"households": 23306,
+"onePct": 39
+},
+{
+"name": "원천동",
+"households": 21342,
+"onePct": 45
+},
+{
+"name": "율천동",
+"households": 19578,
+"onePct": 49
+},
+{
+"name": "금곡동",
+"households": 18858,
+"onePct": 33
+},
+{
+"name": "곡선동",
+"households": 18147,
+"onePct": 53
+}
+],
+"gus": [
+{
+"name": "수원시 장안구",
+"households": 123215,
+"onePct": 40
+},
+{
+"name": "수원시 권선구",
+"households": 167733,
+"onePct": 40
+},
+{
+"name": "수원시 팔달구",
+"households": 99053,
+"onePct": 49
+},
+{
+"name": "수원시 영통구",
+"households": 156854,
+"onePct": 37
+}
+],
+"rankDogs": 1,
+"rankPer100": 22,
+"rankOf": 61
+},
+"용인": {
+"label": "용인시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 450991,
+"onePct": 31,
+"dogs": 66533,
+"cats": 812,
+"per100": 14.8,
+"parts": [
+{
+"name": "동천동",
+"households": 19797,
+"onePct": 25
+},
+{
+"name": "성복동",
+"households": 18799,
+"onePct": 15
+},
+{
+"name": "구갈동",
+"households": 18148,
+"onePct": 40
+},
+{
+"name": "신갈동",
+"households": 16108,
+"onePct": 35
+},
+{
+"name": "모현읍",
+"households": 16030,
+"onePct": 39
+},
+{
+"name": "역북동",
+"households": 15823,
+"onePct": 41
+}
+],
+"gus": [
+{
+"name": "용인시 처인구",
+"households": 132171,
+"onePct": 40
+},
+{
+"name": "용인시 기흥구",
+"households": 178101,
+"onePct": 30
+},
+{
+"name": "용인시 수지구",
+"households": 140719,
+"onePct": 24
+}
+],
+"rankDogs": 3,
+"rankPer100": 12,
+"rankOf": 61
+},
+"고양": {
+"label": "고양시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 468585,
+"onePct": 36,
+"dogs": 73953,
+"cats": 799,
+"per100": 15.8,
+"parts": [
+{
+"name": "풍산동",
+"households": 17029,
+"onePct": 27
+},
+{
+"name": "장항2동",
+"households": 16444,
+"onePct": 64
+},
+{
+"name": "대화동",
+"households": 16067,
+"onePct": 43
+},
+{
+"name": "관산동",
+"households": 16061,
+"onePct": 41
+},
+{
+"name": "화정1동",
+"households": 15792,
+"onePct": 39
+},
+{
+"name": "식사동",
+"households": 15057,
+"onePct": 24
+}
+],
+"gus": [
+{
+"name": "고양시 덕양구",
+"households": 219218,
+"onePct": 38
+},
+{
+"name": "고양시 일산동구",
+"households": 134667,
+"onePct": 38
+},
+{
+"name": "고양시 일산서구",
+"households": 114700,
+"onePct": 30
+}
+],
+"rankDogs": 2,
+"rankPer100": 8,
+"rankOf": 61
+},
+"화성": {
+"label": "화성시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 434633,
+"onePct": 37,
+"dogs": 49820,
+"cats": 468,
+"per100": 11.5,
+"parts": [
+{
+"name": "봉담읍",
+"households": 47858,
+"onePct": 33
+},
+{
+"name": "향남읍",
+"households": 41239,
+"onePct": 48
+},
+{
+"name": "남양읍",
+"households": 30257,
+"onePct": 47
+},
+{
+"name": "진안동",
+"households": 23834,
+"onePct": 45
+},
+{
+"name": "동탄9동",
+"households": 23621,
+"onePct": 25
+},
+{
+"name": "동탄7동",
+"households": 22653,
+"onePct": 29
+}
+],
+"gus": [
+{
+"name": "화성시 만세구",
+"households": 116669,
+"onePct": 48
+},
+{
+"name": "화성시 효행구",
+"households": 72035,
+"onePct": 37
+},
+{
+"name": "화성시 병점구",
+"households": 75991,
+"onePct": 37
+},
+{
+"name": "화성시 동탄구",
+"households": 169938,
+"onePct": 30
+}
+],
+"rankDogs": 8,
+"rankPer100": 38,
+"rankOf": 61
+},
+"성남": {
+"label": "성남시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 407918,
+"onePct": 39,
+"dogs": 59674,
+"cats": 793,
+"per100": 14.6,
+"parts": [
+{
+"name": "위례동",
+"households": 18654,
+"onePct": 31
+},
+{
+"name": "성남동",
+"households": 18485,
+"onePct": 59
+},
+{
+"name": "운중동",
+"households": 14131,
+"onePct": 17
+},
+{
+"name": "정자1동",
+"households": 14102,
+"onePct": 44
+},
+{
+"name": "서현1동",
+"households": 12697,
+"onePct": 34
+},
+{
+"name": "야탑3동",
+"households": 12697,
+"onePct": 41
+}
+],
+"gus": [
+{
+"name": "성남시 수정구",
+"households": 117604,
+"onePct": 46
+},
+{
+"name": "성남시 중원구",
+"households": 97711,
+"onePct": 45
+},
+{
+"name": "성남시 분당구",
+"households": 192603,
+"onePct": 32
+}
+],
+"rankDogs": 4,
+"rankPer100": 15,
+"rankOf": 61
+},
+"부천": {
+"label": "부천시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 344196,
+"onePct": 38,
+"dogs": 55995,
+"cats": 448,
+"per100": 16.3,
+"parts": [
+{
+"name": "중1동",
+"households": 19624,
+"onePct": 46
+},
+{
+"name": "성곡동",
+"households": 16920,
+"onePct": 37
+},
+{
+"name": "소사본동",
+"households": 12244,
+"onePct": 38
+},
+{
+"name": "고강본동",
+"households": 12024,
+"onePct": 42
+},
+{
+"name": "소사본1동",
+"households": 11450,
+"onePct": 29
+},
+{
+"name": "중2동",
+"households": 11433,
+"onePct": 24
+}
+],
+"gus": [
+{
+"name": "부천시 원미구",
+"households": 174915,
+"onePct": 39
+},
+{
+"name": "부천시 소사구",
+"households": 99086,
+"onePct": 34
+},
+{
+"name": "부천시 오정구",
+"households": 70195,
+"onePct": 39
+}
+],
+"rankDogs": 5,
+"rankPer100": 6,
+"rankOf": 61
+},
+"남양주": {
+"label": "남양주시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 309610,
+"onePct": 33,
+"dogs": 50994,
+"cats": 456,
+"per100": 16.5,
+"parts": [
+{
+"name": "다산1동",
+"households": 42264,
+"onePct": 30
+},
+{
+"name": "진접읍",
+"households": 40051,
+"onePct": 33
+},
+{
+"name": "별내동",
+"households": 36015,
+"onePct": 35
+},
+{
+"name": "화도읍",
+"households": 28934,
+"onePct": 38
+},
+{
+"name": "와부읍",
+"households": 23838,
+"onePct": 27
+},
+{
+"name": "호평동",
+"households": 21909,
+"onePct": 27
+}
+],
+"gus": [],
+"rankDogs": 7,
+"rankPer100": 4,
+"rankOf": 61
+},
+"평택": {
+"label": "평택시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 302078,
+"onePct": 45,
+"dogs": 37182,
+"cats": 475,
+"per100": 12.3,
+"parts": [
+{
+"name": "고덕동",
+"households": 29925,
+"onePct": 39
+},
+{
+"name": "중앙동",
+"households": 23476,
+"onePct": 50
+},
+{
+"name": "비전2동",
+"households": 22939,
+"onePct": 29
+},
+{
+"name": "비전1동",
+"households": 21595,
+"onePct": 38
+},
+{
+"name": "동삭동",
+"households": 19804,
+"onePct": 36
+},
+{
+"name": "안중읍",
+"households": 19483,
+"onePct": 44
+}
+],
+"gus": [],
+"rankDogs": 13,
+"rankPer100": 29,
+"rankOf": 61
+},
+"안산": {
+"label": "안산시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 289639,
+"onePct": 43,
+"dogs": 48025,
+"cats": 796,
+"per100": 16.6,
+"parts": [
+{
+"name": "초지동",
+"households": 21451,
+"onePct": 41
+},
+{
+"name": "와동",
+"households": 17287,
+"onePct": 46
+},
+{
+"name": "본오1동",
+"households": 17128,
+"onePct": 48
+},
+{
+"name": "월피동",
+"households": 16811,
+"onePct": 44
+},
+{
+"name": "호수동",
+"households": 16088,
+"onePct": 26
+},
+{
+"name": "사동",
+"households": 15245,
+"onePct": 52
+}
+],
+"gus": [
+{
+"name": "안산시 상록구",
+"households": 152488,
+"onePct": 43
+},
+{
+"name": "안산시 단원구",
+"households": 137151,
+"onePct": 43
+}
+],
+"rankDogs": 9,
+"rankPer100": 2,
+"rankOf": 61
+},
+"안양": {
+"label": "안양시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 241372,
+"onePct": 33,
+"dogs": 36736,
+"cats": 288,
+"per100": 15.2,
+"parts": [
+{
+"name": "관양동",
+"households": 15277,
+"onePct": 41
+},
+{
+"name": "안양6동",
+"households": 13358,
+"onePct": 44
+},
+{
+"name": "석수2동",
+"households": 12848,
+"onePct": 33
+},
+{
+"name": "부림동",
+"households": 12771,
+"onePct": 41
+},
+{
+"name": "안양2동",
+"households": 10734,
+"onePct": 42
+},
+{
+"name": "호계2동",
+"households": 10678,
+"onePct": 24
+}
+],
+"gus": [
+{
+"name": "안양시 만안구",
+"households": 106721,
+"onePct": 37
+},
+{
+"name": "안양시 동안구",
+"households": 134651,
+"onePct": 29
+}
+],
+"rankDogs": 15,
+"rankPer100": 10,
+"rankOf": 61
+},
+"파주": {
+"label": "파주시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 239161,
+"onePct": 38,
+"dogs": 34164,
+"cats": 283,
+"per100": 14.3,
+"parts": [
+{
+"name": "운정3동",
+"households": 26998,
+"onePct": 29
+},
+{
+"name": "운정2동",
+"households": 24648,
+"onePct": 26
+},
+{
+"name": "운정1동",
+"households": 24397,
+"onePct": 30
+},
+{
+"name": "운정5동",
+"households": 22733,
+"onePct": 25
+},
+{
+"name": "문산읍",
+"households": 22440,
+"onePct": 42
+},
+{
+"name": "운정6동",
+"households": 17630,
+"onePct": 34
+}
+],
+"gus": [],
+"rankDogs": 16,
+"rankPer100": 18,
+"rankOf": 61
+},
+"시흥": {
+"label": "시흥시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 232501,
+"onePct": 39,
+"dogs": 36772,
+"cats": 197,
+"per100": 15.8,
+"parts": [
+{
+"name": "은행동",
+"households": 22201,
+"onePct": 25
+},
+{
+"name": "대야동",
+"households": 19158,
+"onePct": 36
+},
+{
+"name": "장곡동",
+"households": 18158,
+"onePct": 26
+},
+{
+"name": "목감동",
+"households": 17318,
+"onePct": 32
+},
+{
+"name": "신천동",
+"households": 16063,
+"onePct": 45
+},
+{
+"name": "배곧2동",
+"households": 15677,
+"onePct": 42
+}
+],
+"gus": [],
+"rankDogs": 14,
+"rankPer100": 9,
+"rankOf": 61
+},
+"김포": {
+"label": "김포시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 208158,
+"onePct": 35,
+"dogs": 30911,
+"cats": 217,
+"per100": 14.8,
+"parts": [
+{
+"name": "풍무동",
+"households": 23617,
+"onePct": 28
+},
+{
+"name": "김포본동",
+"households": 22200,
+"onePct": 24
+},
+{
+"name": "구래동",
+"households": 21907,
+"onePct": 46
+},
+{
+"name": "고촌읍",
+"households": 19726,
+"onePct": 24
+},
+{
+"name": "운양동",
+"households": 18756,
+"onePct": 25
+},
+{
+"name": "통진읍",
+"households": 18624,
+"onePct": 51
+}
+],
+"gus": [],
+"rankDogs": 19,
+"rankPer100": 13,
+"rankOf": 61
+},
+"의정부": {
+"label": "의정부시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 214269,
+"onePct": 39,
+"dogs": 31007,
+"cats": 226,
+"per100": 14.5,
+"parts": [
+{
+"name": "의정부1동",
+"households": 22562,
+"onePct": 61
+},
+{
+"name": "신곡2동",
+"households": 18846,
+"onePct": 32
+},
+{
+"name": "신곡1동",
+"households": 18091,
+"onePct": 32
+},
+{
+"name": "송산3동",
+"households": 18073,
+"onePct": 30
+},
+{
+"name": "의정부2동",
+"households": 16474,
+"onePct": 55
+},
+{
+"name": "호원1동",
+"households": 15084,
+"onePct": 36
+}
+],
+"gus": [],
+"rankDogs": 18,
+"rankPer100": 16,
+"rankOf": 61
+},
+"광주시": {
+"label": "광주시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 178872,
+"onePct": 36,
+"dogs": 28452,
+"cats": 400,
+"per100": 15.9,
+"parts": [
+{
+"name": "초월읍",
+"households": 23166,
+"onePct": 36
+},
+{
+"name": "탄벌동",
+"households": 18423,
+"onePct": 32
+},
+{
+"name": "신현동",
+"households": 16972,
+"onePct": 41
+},
+{
+"name": "경안동",
+"households": 14768,
+"onePct": 40
+},
+{
+"name": "광남1동",
+"households": 14127,
+"onePct": 36
+},
+{
+"name": "오포2동",
+"households": 13485,
+"onePct": 32
+}
+],
+"gus": [],
+"rankDogs": 21,
+"rankPer100": 7,
+"rankOf": 61
+},
+"하남": {
+"label": "하남시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 141015,
+"onePct": 35,
+"dogs": 17412,
+"cats": 203,
+"per100": 12.3,
+"parts": [
+{
+"name": "미사1동",
+"households": 28341,
+"onePct": 54
+},
+{
+"name": "신장2동",
+"households": 18723,
+"onePct": 28
+},
+{
+"name": "미사2동",
+"households": 18410,
+"onePct": 28
+},
+{
+"name": "감일동",
+"households": 14789,
+"onePct": 25
+},
+{
+"name": "위례동",
+"households": 12258,
+"onePct": 17
+},
+{
+"name": "덕풍3동",
+"households": 11775,
+"onePct": 32
+}
+],
+"gus": [],
+"rankDogs": 29,
+"rankPer100": 30,
+"rankOf": 61
+},
+"광명": {
+"label": "광명시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 128063,
+"onePct": 31,
+"dogs": 20973,
+"cats": 118,
+"per100": 16.4,
+"parts": [
+{
+"name": "철산3동",
+"households": 12580,
+"onePct": 17
+},
+{
+"name": "소하1동",
+"households": 11234,
+"onePct": 26
+},
+{
+"name": "소하2동",
+"households": 10883,
+"onePct": 30
+},
+{
+"name": "광명7동",
+"households": 10368,
+"onePct": 27
+},
+{
+"name": "하안1동",
+"households": 9740,
+"onePct": 29
+},
+{
+"name": "일직동",
+"households": 9024,
+"onePct": 37
+}
+],
+"gus": [],
+"rankDogs": 26,
+"rankPer100": 5,
+"rankOf": 61
+},
+"양주": {
+"label": "양주시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 133931,
+"onePct": 37,
+"dogs": 15301,
+"cats": 104,
+"per100": 11.4,
+"parts": [
+{
+"name": "옥정2동",
+"households": 22748,
+"onePct": 25
+},
+{
+"name": "회천2동",
+"households": 21233,
+"onePct": 36
+},
+{
+"name": "양주2동",
+"households": 21018,
+"onePct": 33
+},
+{
+"name": "옥정1동",
+"households": 18919,
+"onePct": 36
+},
+{
+"name": "백석읍",
+"households": 12291,
+"onePct": 41
+},
+{
+"name": "회천3동",
+"households": 11089,
+"onePct": 36
+}
+],
+"gus": [],
+"rankDogs": 33,
+"rankPer100": 39,
+"rankOf": 61
+},
+"오산": {
+"label": "오산시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 119131,
+"onePct": 42,
+"dogs": 15114,
+"cats": 92,
+"per100": 12.7,
+"parts": [
+{
+"name": "대원1동",
+"households": 21676,
+"onePct": 46
+},
+{
+"name": "남촌동",
+"households": 18493,
+"onePct": 62
+},
+{
+"name": "신장1동",
+"households": 16051,
+"onePct": 40
+},
+{
+"name": "초평동",
+"households": 14542,
+"onePct": 40
+},
+{
+"name": "중앙동",
+"households": 14081,
+"onePct": 34
+},
+{
+"name": "세마동",
+"households": 13789,
+"onePct": 36
+}
+],
+"gus": [],
+"rankDogs": 34,
+"rankPer100": 25,
+"rankOf": 61
+},
+"이천": {
+"label": "이천시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 110966,
+"onePct": 45,
+"dogs": 13285,
+"cats": 83,
+"per100": 12.0,
+"parts": [
+{
+"name": "증포동",
+"households": 21985,
+"onePct": 28
+},
+{
+"name": "부발읍",
+"households": 17035,
+"onePct": 45
+},
+{
+"name": "중리동",
+"households": 11520,
+"onePct": 53
+},
+{
+"name": "마장면",
+"households": 8901,
+"onePct": 55
+},
+{
+"name": "창전동",
+"households": 8221,
+"onePct": 55
+},
+{
+"name": "대월면",
+"households": 8090,
+"onePct": 57
+}
+],
+"gus": [],
+"rankDogs": 42,
+"rankPer100": 33,
+"rankOf": 61
+},
+"안성": {
+"label": "안성시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 99345,
+"onePct": 46,
+"dogs": 12390,
+"cats": 161,
+"per100": 12.5,
+"parts": [
+{
+"name": "공도읍",
+"households": 32601,
+"onePct": 39
+},
+{
+"name": "안성2동",
+"households": 12833,
+"onePct": 47
+},
+{
+"name": "안성3동",
+"households": 12206,
+"onePct": 38
+},
+{
+"name": "대덕면",
+"households": 8264,
+"onePct": 60
+},
+{
+"name": "안성1동",
+"households": 5436,
+"onePct": 46
+},
+{
+"name": "죽산면",
+"households": 3938,
+"onePct": 58
+}
+],
+"gus": [],
+"rankDogs": 44,
+"rankPer100": 28,
+"rankOf": 61
+},
+"구리": {
+"label": "구리시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 83530,
+"onePct": 36,
+"dogs": 12368,
+"cats": 121,
+"per100": 14.8,
+"parts": [
+{
+"name": "동구동",
+"households": 13668,
+"onePct": 24
+},
+{
+"name": "갈매동",
+"households": 12592,
+"onePct": 30
+},
+{
+"name": "수택2동",
+"households": 11897,
+"onePct": 45
+},
+{
+"name": "인창동",
+"households": 11187,
+"onePct": 31
+},
+{
+"name": "수택3동",
+"households": 9568,
+"onePct": 40
+},
+{
+"name": "수택1동",
+"households": 8618,
+"onePct": 49
+}
+],
+"gus": [],
+"rankDogs": 45,
+"rankPer100": 14,
+"rankOf": 61
+},
+"의왕": {
+"label": "의왕시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 69261,
+"onePct": 28,
+"dogs": 8088,
+"cats": 99,
+"per100": 11.7,
+"parts": [
+{
+"name": "청계동",
+"households": 16111,
+"onePct": 32
+},
+{
+"name": "부곡동",
+"households": 12551,
+"onePct": 33
+},
+{
+"name": "오전동",
+"households": 12464,
+"onePct": 21
+},
+{
+"name": "내손2동",
+"households": 12185,
+"onePct": 22
+},
+{
+"name": "내손1동",
+"households": 8337,
+"onePct": 32
+},
+{
+"name": "고천동",
+"households": 7613,
+"onePct": 31
+}
+],
+"gus": [],
+"rankDogs": 51,
+"rankPer100": 35,
+"rankOf": 61
+},
+"군포": {
+"label": "군포시",
+"sido": "경기",
+"sidoName": "경기도",
+"level": "city",
+"households": 111814,
+"onePct": 37,
+"dogs": 15432,
+"cats": 178,
+"per100": 13.8,
+"parts": [
+{
+"name": "군포2동",
+"households": 16087,
+"onePct": 27
+},
+{
+"name": "군포1동",
+"households": 14813,
+"onePct": 47
+},
+{
+"name": "광정동",
+"households": 10308,
+"onePct": 40
+},
+{
+"name": "산본2동",
+"households": 9847,
+"onePct": 26
+},
+{
+"name": "금정동",
+"households": 9625,
+"onePct": 50
+},
+{
+"name": "오금동",
+"households": 8591,
+"onePct": 33
+}
+],
+"gus": [],
+"rankDogs": 32,
+"rankPer100": 21,
+"rankOf": 61
+},
+"창원": {
+"label": "창원시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 464666,
+"onePct": 40,
+"dogs": 51262,
+"cats": 279,
+"per100": 11.0,
+"parts": [
+{
+"name": "내서읍",
+"households": 25181,
+"onePct": 33
+},
+{
+"name": "중앙동",
+"households": 22103,
+"onePct": 50
+},
+{
+"name": "의창동",
+"households": 21054,
+"onePct": 36
+},
+{
+"name": "웅동2동",
+"households": 20557,
+"onePct": 46
+},
+{
+"name": "사파동",
+"households": 19556,
+"onePct": 36
+},
+{
+"name": "명곡동",
+"households": 18148,
+"onePct": 41
+}
+],
+"gus": [
+{
+"name": "창원시 의창구",
+"households": 99768,
+"onePct": 40
+},
+{
+"name": "창원시 성산구",
+"households": 109970,
+"onePct": 36
+},
+{
+"name": "창원시 마산합포구",
+"households": 86617,
+"onePct": 44
+},
+{
+"name": "창원시 마산회원구",
+"households": 82755,
+"onePct": 40
+},
+{
+"name": "창원시 진해구",
+"households": 85556,
+"onePct": 40
+}
+],
+"rankDogs": 6,
+"rankPer100": 44,
+"rankOf": 61
+},
+"마산": {
+"label": "창원시 마산(합포·회원구)",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 169372,
+"onePct": 42,
+"dogs": 17119,
+"cats": 108,
+"per100": 10.1,
+"parts": [
+{
+"name": "내서읍",
+"households": 25181,
+"onePct": 33
+},
+{
+"name": "월영동",
+"households": 17130,
+"onePct": 31
+},
+{
+"name": "양덕2동",
+"households": 13518,
+"onePct": 25
+},
+{
+"name": "오동동",
+"households": 10217,
+"onePct": 57
+},
+{
+"name": "교방동",
+"households": 8498,
+"onePct": 38
+},
+{
+"name": "석전동",
+"households": 7612,
+"onePct": 43
+}
+],
+"gus": [
+{
+"name": "창원시 마산합포구",
+"households": 86617,
+"onePct": 44
+},
+{
+"name": "창원시 마산회원구",
+"households": 82755,
+"onePct": 40
+}
+],
+"rankDogs": 30,
+"rankPer100": 50,
+"rankOf": 61
+},
+"김해": {
+"label": "김해시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 241755,
+"onePct": 37,
+"dogs": 29279,
+"cats": 162,
+"per100": 12.1,
+"parts": [
+{
+"name": "북부동",
+"households": 34347,
+"onePct": 32
+},
+{
+"name": "내외동",
+"households": 31834,
+"onePct": 41
+},
+{
+"name": "장유1동",
+"households": 29645,
+"onePct": 28
+},
+{
+"name": "장유3동",
+"households": 27903,
+"onePct": 26
+},
+{
+"name": "진영읍",
+"households": 24012,
+"onePct": 39
+},
+{
+"name": "삼안동",
+"households": 17767,
+"onePct": 46
+}
+],
+"gus": [],
+"rankDogs": 20,
+"rankPer100": 32,
+"rankOf": 61
+},
+"양산": {
+"label": "양산시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 167332,
+"onePct": 39,
+"dogs": 18369,
+"cats": 76,
+"per100": 11.0,
+"parts": [
+{
+"name": "물금읍",
+"households": 49625,
+"onePct": 33
+},
+{
+"name": "동면",
+"households": 25462,
+"onePct": 33
+},
+{
+"name": "평산동",
+"households": 13560,
+"onePct": 40
+},
+{
+"name": "양주동",
+"households": 12850,
+"onePct": 31
+},
+{
+"name": "서창동",
+"households": 12541,
+"onePct": 44
+},
+{
+"name": "삼성동",
+"households": 10225,
+"onePct": 49
+}
+],
+"gus": [],
+"rankDogs": 28,
+"rankPer100": 45,
+"rankOf": 61
+},
+"진주": {
+"label": "진주시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 163600,
+"onePct": 44,
+"dogs": 16493,
+"cats": 119,
+"per100": 10.1,
+"parts": [
+{
+"name": "가호동",
+"households": 19665,
+"onePct": 54
+},
+{
+"name": "천전동",
+"households": 14204,
+"onePct": 51
+},
+{
+"name": "충무공동",
+"households": 12916,
+"onePct": 27
+},
+{
+"name": "평거동",
+"households": 11463,
+"onePct": 38
+},
+{
+"name": "하대동",
+"households": 11135,
+"onePct": 45
+},
+{
+"name": "초장동",
+"households": 10349,
+"onePct": 23
+}
+],
+"gus": [],
+"rankDogs": 31,
+"rankPer100": 51,
+"rankOf": 61
+},
+"거제": {
+"label": "거제시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 107474,
+"onePct": 40,
+"dogs": 13524,
+"cats": 61,
+"per100": 12.6,
+"parts": [
+{
+"name": "고현동",
+"households": 16889,
+"onePct": 41
+},
+{
+"name": "상문동",
+"households": 13201,
+"onePct": 23
+},
+{
+"name": "옥포2동",
+"households": 11404,
+"onePct": 43
+},
+{
+"name": "아주동",
+"households": 10311,
+"onePct": 34
+},
+{
+"name": "장평동",
+"households": 9897,
+"onePct": 49
+},
+{
+"name": "수양동",
+"households": 8386,
+"onePct": 24
+}
+],
+"gus": [],
+"rankDogs": 38,
+"rankPer100": 27,
+"rankOf": 61
+},
+"통영": {
+"label": "통영시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 59541,
+"onePct": 47,
+"dogs": 7769,
+"cats": 48,
+"per100": 13.0,
+"parts": [
+{
+"name": "광도면",
+"households": 14382,
+"onePct": 39
+},
+{
+"name": "무전동",
+"households": 6357,
+"onePct": 46
+},
+{
+"name": "용남면",
+"households": 5069,
+"onePct": 35
+},
+{
+"name": "봉평동",
+"households": 5011,
+"onePct": 57
+},
+{
+"name": "미수동",
+"households": 4810,
+"onePct": 42
+},
+{
+"name": "북신동",
+"households": 4623,
+"onePct": 41
+}
+],
+"gus": [],
+"rankDogs": 53,
+"rankPer100": 24,
+"rankOf": 61
+},
+"사천": {
+"label": "사천시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 56746,
+"onePct": 48,
+"dogs": 5434,
+"cats": 22,
+"per100": 9.6,
+"parts": [
+{
+"name": "사천읍",
+"households": 8967,
+"onePct": 54
+},
+{
+"name": "사남면",
+"households": 8373,
+"onePct": 40
+},
+{
+"name": "벌용동",
+"households": 7344,
+"onePct": 47
+},
+{
+"name": "정동면",
+"households": 6131,
+"onePct": 39
+},
+{
+"name": "용현면",
+"households": 4592,
+"onePct": 47
+},
+{
+"name": "향촌동",
+"households": 3598,
+"onePct": 54
+}
+],
+"gus": [],
+"rankDogs": 60,
+"rankPer100": 55,
+"rankOf": 61
+},
+"밀양": {
+"label": "밀양시",
+"sido": "경남",
+"sidoName": "경상남도",
+"level": "city",
+"households": 54294,
+"onePct": 51,
+"dogs": 5814,
+"cats": 25,
+"per100": 10.7,
+"parts": [
+{
+"name": "내이동",
+"households": 8754,
+"onePct": 48
+},
+{
+"name": "삼문동",
+"households": 8329,
+"onePct": 36
+},
+{
+"name": "상남면",
+"households": 4102,
+"onePct": 49
+},
+{
+"name": "가곡동",
+"households": 4087,
+"onePct": 54
+},
+{
+"name": "하남읍",
+"households": 3713,
+"onePct": 52
+},
+{
+"name": "부북면",
+"households": 3201,
+"onePct": 57
+}
+],
+"gus": [],
+"rankDogs": 58,
+"rankPer100": 46,
+"rankOf": 61
+},
+"청주": {
+"label": "청주시",
+"sido": "충북",
+"sidoName": "충청북도",
+"level": "city",
+"households": 415906,
+"onePct": 44,
+"dogs": 46216,
+"cats": 596,
+"per100": 11.1,
+"parts": [
+{
+"name": "오창읍",
+"households": 30775,
+"onePct": 42
+},
+{
+"name": "용암1동",
+"households": 24940,
+"onePct": 39
+},
+{
+"name": "오송읍",
+"households": 24082,
+"onePct": 44
+},
+{
+"name": "성화개신죽림동",
+"households": 23191,
+"onePct": 43
+},
+{
+"name": "복대1동",
+"households": 22389,
+"onePct": 38
+},
+{
+"name": "가경동",
+"households": 22382,
+"onePct": 32
+}
+],
+"gus": [
+{
+"name": "청주시 상당구",
+"households": 89428,
+"onePct": 39
+},
+{
+"name": "청주시 서원구",
+"households": 92574,
+"onePct": 45
+},
+{
+"name": "청주시 흥덕구",
+"households": 142859,
+"onePct": 45
+},
+{
+"name": "청주시 청원구",
+"households": 91045,
+"onePct": 46
+}
+],
+"rankDogs": 10,
+"rankPer100": 43,
+"rankOf": 61
+},
+"충주": {
+"label": "충주시",
+"sido": "충북",
+"sidoName": "충청북도",
+"level": "city",
+"households": 105369,
+"onePct": 46,
+"dogs": 14714,
+"cats": 19,
+"per100": 14.0,
+"parts": [
+{
+"name": "연수동",
+"households": 17271,
+"onePct": 46
+},
+{
+"name": "교현.안림동",
+"households": 10095,
+"onePct": 38
+},
+{
+"name": "호암.직동",
+"households": 9742,
+"onePct": 37
+},
+{
+"name": "중앙탑면",
+"households": 6545,
+"onePct": 36
+},
+{
+"name": "칠금.금릉동",
+"households": 6297,
+"onePct": 39
+},
+{
+"name": "대소원면",
+"households": 6213,
+"onePct": 65
+}
+],
+"gus": [],
+"rankDogs": 36,
+"rankPer100": 20,
+"rankOf": 61
+},
+"제천": {
+"label": "제천시",
+"sido": "충북",
+"sidoName": "충청북도",
+"level": "city",
+"households": 67211,
+"onePct": 48,
+"dogs": 7551,
+"cats": 14,
+"per100": 11.2,
+"parts": [
+{
+"name": "용두동",
+"households": 10831,
+"onePct": 54
+},
+{
+"name": "교동",
+"households": 8861,
+"onePct": 33
+},
+{
+"name": "청전동",
+"households": 7774,
+"onePct": 50
+},
+{
+"name": "화산동",
+"households": 6841,
+"onePct": 44
+},
+{
+"name": "신백동",
+"households": 5153,
+"onePct": 45
+},
+{
+"name": "영서동",
+"households": 4878,
+"onePct": 48
+}
+],
+"gus": [],
+"rankDogs": 54,
+"rankPer100": 40,
+"rankOf": 61
+},
+"천안": {
+"label": "천안시",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "city",
+"households": 322739,
+"onePct": 45,
+"dogs": 37356,
+"cats": 378,
+"per100": 11.6,
+"parts": [
+{
+"name": "부성1동",
+"households": 29441,
+"onePct": 51
+},
+{
+"name": "부성2동",
+"households": 27946,
+"onePct": 39
+},
+{
+"name": "청룡동",
+"households": 24939,
+"onePct": 31
+},
+{
+"name": "신안동",
+"households": 21615,
+"onePct": 55
+},
+{
+"name": "신방동",
+"households": 19784,
+"onePct": 42
+},
+{
+"name": "성정2동",
+"households": 17850,
+"onePct": 75
+}
+],
+"gus": [
+{
+"name": "천안시 동남구",
+"households": 129889,
+"onePct": 45
+},
+{
+"name": "천안시 서북구",
+"households": 192850,
+"onePct": 45
+}
+],
+"rankDogs": 12,
+"rankPer100": 36,
+"rankOf": 61
+},
+"아산": {
+"label": "아산시",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "city",
+"households": 172774,
+"onePct": 43,
+"dogs": 21104,
+"cats": 204,
+"per100": 12.2,
+"parts": [
+{
+"name": "배방읍",
+"households": 45834,
+"onePct": 43
+},
+{
+"name": "탕정면",
+"households": 19360,
+"onePct": 34
+},
+{
+"name": "온양3동",
+"households": 17860,
+"onePct": 35
+},
+{
+"name": "둔포면",
+"households": 12556,
+"onePct": 53
+},
+{
+"name": "온양6동",
+"households": 11834,
+"onePct": 42
+},
+{
+"name": "신창면",
+"households": 11575,
+"onePct": 48
+}
+],
+"gus": [],
+"rankDogs": 25,
+"rankPer100": 31,
+"rankOf": 61
+},
+"당진": {
+"label": "당진시",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "city",
+"households": 86915,
+"onePct": 47,
+"dogs": 9764,
+"cats": 31,
+"per100": 11.2,
+"parts": [
+{
+"name": "당진1동",
+"households": 19098,
+"onePct": 42
+},
+{
+"name": "송악읍",
+"households": 14991,
+"onePct": 49
+},
+{
+"name": "당진2동",
+"households": 9976,
+"onePct": 39
+},
+{
+"name": "당진3동",
+"households": 6991,
+"onePct": 38
+},
+{
+"name": "신평면",
+"households": 6542,
+"onePct": 40
+},
+{
+"name": "송산면",
+"households": 6304,
+"onePct": 58
+}
+],
+"gus": [],
+"rankDogs": 49,
+"rankPer100": 41,
+"rankOf": 61
+},
+"서산": {
+"label": "서산시",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "city",
+"households": 84274,
+"onePct": 43,
+"dogs": 8604,
+"cats": 21,
+"per100": 10.2,
+"parts": [
+{
+"name": "석남동",
+"households": 14878,
+"onePct": 34
+},
+{
+"name": "부춘동",
+"households": 8872,
+"onePct": 48
+},
+{
+"name": "수석동",
+"households": 8116,
+"onePct": 43
+},
+{
+"name": "동문1동",
+"households": 7713,
+"onePct": 37
+},
+{
+"name": "성연면",
+"households": 7158,
+"onePct": 32
+},
+{
+"name": "대산읍",
+"households": 6864,
+"onePct": 56
+}
+],
+"gus": [],
+"rankDogs": 50,
+"rankPer100": 49,
+"rankOf": 61
+},
+"논산": {
+"label": "논산시",
+"sido": "충남",
+"sidoName": "충청남도",
+"level": "city",
+"households": 56880,
+"onePct": 50,
+"dogs": 8044,
+"cats": 14,
+"per100": 14.1,
+"parts": [
+{
+"name": "취암동",
+"households": 16794,
+"onePct": 48
+},
+{
+"name": "부창동",
+"households": 7501,
+"onePct": 41
+},
+{
+"name": "연무읍",
+"households": 6580,
+"onePct": 50
+},
+{
+"name": "강경읍",
+"households": 3978,
+"onePct": 53
+},
+{
+"name": "연산면",
+"households": 3226,
+"onePct": 56
+},
+{
+"name": "양촌면",
+"households": 2968,
+"onePct": 48
+}
+],
+"gus": [],
+"rankDogs": 52,
+"rankPer100": 19,
+"rankOf": 61
+},
+"전주": {
+"label": "전주시",
+"sido": "전북",
+"sidoName": "전북특별자치도",
+"level": "city",
+"households": 297505,
+"onePct": 43,
+"dogs": 31168,
+"cats": 252,
+"per100": 10.5,
+"parts": [
+{
+"name": "효자5동",
+"households": 19240,
+"onePct": 54
+},
+{
+"name": "평화2동",
+"households": 18581,
+"onePct": 35
+},
+{
+"name": "서신동",
+"households": 17573,
+"onePct": 40
+},
+{
+"name": "효자4동",
+"households": 17448,
+"onePct": 39
+},
+{
+"name": "인후3동",
+"households": 14496,
+"onePct": 47
+},
+{
+"name": "송천1동",
+"households": 13635,
+"onePct": 33
+}
+],
+"gus": [
+{
+"name": "전주시 완산구",
+"households": 152914,
+"onePct": 44
+},
+{
+"name": "전주시 덕진구",
+"households": 144591,
+"onePct": 43
+}
+],
+"rankDogs": 17,
+"rankPer100": 47,
+"rankOf": 61
+},
+"익산": {
+"label": "익산시",
+"sido": "전북",
+"sidoName": "전북특별자치도",
+"level": "city",
+"households": 134348,
+"onePct": 46,
+"dogs": 13486,
+"cats": 40,
+"per100": 10.0,
+"parts": [
+{
+"name": "모현동",
+"households": 16221,
+"onePct": 38
+},
+{
+"name": "삼성동",
+"households": 14167,
+"onePct": 39
+},
+{
+"name": "어양동",
+"households": 10375,
+"onePct": 44
+},
+{
+"name": "신동",
+"households": 9972,
+"onePct": 69
+},
+{
+"name": "동산동",
+"households": 9776,
+"onePct": 45
+},
+{
+"name": "영등1동",
+"households": 9126,
+"onePct": 40
+}
+],
+"gus": [],
+"rankDogs": 40,
+"rankPer100": 52,
+"rankOf": 61
+},
+"군산": {
+"label": "군산시",
+"sido": "전북",
+"sidoName": "전북특별자치도",
+"level": "city",
+"households": 127293,
+"onePct": 45,
+"dogs": 14293,
+"cats": 31,
+"per100": 11.2,
+"parts": [
+{
+"name": "수송동",
+"households": 22372,
+"onePct": 32
+},
+{
+"name": "나운3동",
+"households": 14833,
+"onePct": 46
+},
+{
+"name": "조촌동",
+"households": 12025,
+"onePct": 37
+},
+{
+"name": "나운2동",
+"households": 9341,
+"onePct": 38
+},
+{
+"name": "소룡동",
+"households": 8961,
+"onePct": 57
+},
+{
+"name": "구암동",
+"households": 7769,
+"onePct": 40
+}
+],
+"gus": [],
+"rankDogs": 37,
+"rankPer100": 42,
+"rankOf": 61
+},
+"정읍": {
+"label": "정읍시",
+"sido": "전북",
+"sidoName": "전북특별자치도",
+"level": "city",
+"households": 54653,
+"onePct": 51,
+"dogs": 4981,
+"cats": 25,
+"per100": 9.1,
+"parts": [
+{
+"name": "내장상동",
+"households": 9203,
+"onePct": 38
+},
+{
+"name": "수성동",
+"households": 8484,
+"onePct": 54
+},
+{
+"name": "초산동",
+"households": 4272,
+"onePct": 35
+},
+{
+"name": "연지동",
+"households": 2888,
+"onePct": 49
+},
+{
+"name": "신태인읍",
+"households": 2859,
+"onePct": 56
+},
+{
+"name": "농소동",
+"households": 2737,
+"onePct": 47
+}
+],
+"gus": [],
+"rankDogs": 61,
+"rankPer100": 57,
+"rankOf": 61
+},
+"순천": {
+"label": "순천시",
+"sido": "전남",
+"sidoName": "전라남도",
+"level": "city",
+"households": 128011,
+"onePct": 40,
+"dogs": 15047,
+"cats": 4,
+"per100": 11.8,
+"parts": [
+{
+"name": "왕조1동",
+"households": 20527,
+"onePct": 39
+},
+{
+"name": "덕연동",
+"households": 17556,
+"onePct": 36
+},
+{
+"name": "삼산동",
+"households": 13165,
+"onePct": 39
+},
+{
+"name": "해룡면신대출장소",
+"households": 11781,
+"onePct": 21
+},
+{
+"name": "해룡면상삼출장소",
+"households": 7899,
+"onePct": 37
+},
+{
+"name": "도사동",
+"households": 7568,
+"onePct": 39
+}
+],
+"gus": [],
+"rankDogs": 35,
+"rankPer100": 34,
+"rankOf": 61
+},
+"여수": {
+"label": "여수시",
+"sido": "전남",
+"sidoName": "전라남도",
+"level": "city",
+"households": 127117,
+"onePct": 43,
+"dogs": 11702,
+"cats": 9,
+"per100": 9.2,
+"parts": [
+{
+"name": "시전동",
+"households": 17133,
+"onePct": 27
+},
+{
+"name": "쌍봉동",
+"households": 13943,
+"onePct": 37
+},
+{
+"name": "여천동",
+"households": 10057,
+"onePct": 52
+},
+{
+"name": "소라면",
+"households": 9346,
+"onePct": 35
+},
+{
+"name": "문수동",
+"households": 8750,
+"onePct": 45
+},
+{
+"name": "여서동",
+"households": 7268,
+"onePct": 39
+}
+],
+"gus": [],
+"rankDogs": 46,
+"rankPer100": 56,
+"rankOf": 61
+},
+"목포": {
+"label": "목포시",
+"sido": "전남",
+"sidoName": "전라남도",
+"level": "city",
+"households": 102492,
+"onePct": 48,
+"dogs": 10679,
+"cats": 11,
+"per100": 10.4,
+"parts": [
+{
+"name": "상동",
+"households": 10065,
+"onePct": 43
+},
+{
+"name": "부주동",
+"households": 9636,
+"onePct": 41
+},
+{
+"name": "하당동",
+"households": 8069,
+"onePct": 58
+},
+{
+"name": "신흥동",
+"households": 7704,
+"onePct": 44
+},
+{
+"name": "용해동",
+"households": 7209,
+"onePct": 45
+},
+{
+"name": "원산동",
+"households": 5765,
+"onePct": 50
+}
+],
+"gus": [],
+"rankDogs": 48,
+"rankPer100": 48,
+"rankOf": 61
+},
+"광양": {
+"label": "광양시",
+"sido": "전남",
+"sidoName": "전라남도",
+"level": "city",
+"households": 74408,
+"onePct": 42,
+"dogs": 6567,
+"cats": 3,
+"per100": 8.8,
+"parts": [
+{
+"name": "중마동",
+"households": 25836,
+"onePct": 39
+},
+{
+"name": "광양읍",
+"households": 23922,
+"onePct": 43
+},
+{
+"name": "광영동",
+"households": 5075,
+"onePct": 47
+},
+{
+"name": "골약동",
+"households": 4991,
+"onePct": 24
+},
+{
+"name": "금호동",
+"households": 4675,
+"onePct": 44
+},
+{
+"name": "옥곡면",
+"households": 2462,
+"onePct": 44
+}
+],
+"gus": [],
+"rankDogs": 57,
+"rankPer100": 58,
+"rankOf": 61
+},
+"포항": {
+"label": "포항시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 240723,
+"onePct": 42,
+"dogs": 24191,
+"cats": 267,
+"per100": 10.0,
+"parts": [
+{
+"name": "장량동",
+"households": 31067,
+"onePct": 34
+},
+{
+"name": "오천읍",
+"households": 28063,
+"onePct": 46
+},
+{
+"name": "흥해읍",
+"households": 27402,
+"onePct": 34
+},
+{
+"name": "우창동",
+"households": 13568,
+"onePct": 36
+},
+{
+"name": "상대동",
+"households": 13038,
+"onePct": 57
+},
+{
+"name": "연일읍",
+"households": 12026,
+"onePct": 34
+}
+],
+"gus": [
+{
+"name": "포항시 남구",
+"households": 108057,
+"onePct": 46
+},
+{
+"name": "포항시 북구",
+"households": 132666,
+"onePct": 40
+}
+],
+"rankDogs": 23,
+"rankPer100": 53,
+"rankOf": 61
+},
+"구미": {
+"label": "구미시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 195556,
+"onePct": 44,
+"dogs": 22771,
+"cats": 39,
+"per100": 11.6,
+"parts": [
+{
+"name": "인동동",
+"households": 23917,
+"onePct": 51
+},
+{
+"name": "양포동",
+"households": 21679,
+"onePct": 41
+},
+{
+"name": "선주원남동",
+"households": 17148,
+"onePct": 43
+},
+{
+"name": "고아읍",
+"households": 16841,
+"onePct": 27
+},
+{
+"name": "상모사곡동",
+"households": 14180,
+"onePct": 42
+},
+{
+"name": "산동읍",
+"households": 12131,
+"onePct": 29
+}
+],
+"gus": [],
+"rankDogs": 24,
+"rankPer100": 37,
+"rankOf": 61
+},
+"경산": {
+"label": "경산시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 133541,
+"onePct": 47,
+"dogs": 13169,
+"cats": 53,
+"per100": 9.9,
+"parts": [
+{
+"name": "진량읍",
+"households": 17831,
+"onePct": 53
+},
+{
+"name": "동부동",
+"households": 17672,
+"onePct": 47
+},
+{
+"name": "하양읍",
+"households": 16996,
+"onePct": 50
+},
+{
+"name": "서부2동",
+"households": 16869,
+"onePct": 24
+},
+{
+"name": "서부1동",
+"households": 13879,
+"onePct": 40
+},
+{
+"name": "압량읍",
+"households": 11567,
+"onePct": 51
+}
+],
+"gus": [],
+"rankDogs": 43,
+"rankPer100": 54,
+"rankOf": 61
+},
+"경주": {
+"label": "경주시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 127133,
+"onePct": 47,
+"dogs": 11001,
+"cats": 375,
+"per100": 8.7,
+"parts": [
+{
+"name": "황성동",
+"households": 12362,
+"onePct": 34
+},
+{
+"name": "외동읍",
+"households": 11907,
+"onePct": 50
+},
+{
+"name": "안강읍",
+"households": 11877,
+"onePct": 50
+},
+{
+"name": "용강동",
+"households": 10576,
+"onePct": 33
+},
+{
+"name": "동천동",
+"households": 10387,
+"onePct": 48
+},
+{
+"name": "현곡면",
+"households": 8963,
+"onePct": 28
+}
+],
+"gus": [],
+"rankDogs": 47,
+"rankPer100": 59,
+"rankOf": 61
+},
+"안동": {
+"label": "안동시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 81460,
+"onePct": 50,
+"dogs": 7084,
+"cats": 3,
+"per100": 8.7,
+"parts": [
+{
+"name": "용상동",
+"households": 13461,
+"onePct": 55
+},
+{
+"name": "옥동",
+"households": 9479,
+"onePct": 43
+},
+{
+"name": "송하동",
+"households": 6859,
+"onePct": 42
+},
+{
+"name": "태화동",
+"households": 6308,
+"onePct": 49
+},
+{
+"name": "풍천면",
+"households": 4428,
+"onePct": 57
+},
+{
+"name": "강남동",
+"households": 4375,
+"onePct": 35
+}
+],
+"gus": [],
+"rankDogs": 55,
+"rankPer100": 60,
+"rankOf": 61
+},
+"김천": {
+"label": "김천시",
+"sido": "경북",
+"sidoName": "경상북도",
+"level": "city",
+"households": 69002,
+"onePct": 47,
+"dogs": 5699,
+"cats": 13,
+"per100": 8.3,
+"parts": [
+{
+"name": "대신동",
+"households": 11432,
+"onePct": 46
+},
+{
+"name": "대곡동",
+"households": 10193,
+"onePct": 45
+},
+{
+"name": "율곡동",
+"households": 9652,
+"onePct": 34
+},
+{
+"name": "지좌동",
+"households": 5334,
+"onePct": 48
+},
+{
+"name": "아포읍",
+"households": 4298,
+"onePct": 48
+},
+{
+"name": "평화남산동",
+"households": 4059,
+"onePct": 59
+}
+],
+"gus": [],
+"rankDogs": 59,
+"rankPer100": 61,
+"rankOf": 61
+},
+"원주": {
+"label": "원주시",
+"sido": "강원",
+"sidoName": "강원특별자치도",
+"level": "city",
+"households": 179243,
+"onePct": 43,
+"dogs": 24558,
+"cats": 288,
+"per100": 13.7,
+"parts": [
+{
+"name": "반곡관설동",
+"households": 23209,
+"onePct": 37
+},
+{
+"name": "단구동",
+"households": 20670,
+"onePct": 43
+},
+{
+"name": "무실동",
+"households": 17442,
+"onePct": 38
+},
+{
+"name": "지정면",
+"households": 13729,
+"onePct": 29
+},
+{
+"name": "단계동",
+"households": 12857,
+"onePct": 42
+},
+{
+"name": "태장2동",
+"households": 11914,
+"onePct": 42
+}
+],
+"gus": [],
+"rankDogs": 22,
+"rankPer100": 23,
+"rankOf": 61
+},
+"춘천": {
+"label": "춘천시",
+"sido": "강원",
+"sidoName": "강원특별자치도",
+"level": "city",
+"households": 139667,
+"onePct": 44,
+"dogs": 20108,
+"cats": 71,
+"per100": 14.4,
+"parts": [
+{
+"name": "퇴계동",
+"households": 19949,
+"onePct": 35
+},
+{
+"name": "석사동",
+"households": 15385,
+"onePct": 44
+},
+{
+"name": "강남동",
+"households": 11578,
+"onePct": 33
+},
+{
+"name": "신사우동",
+"households": 10869,
+"onePct": 35
+},
+{
+"name": "동내면",
+"households": 10561,
+"onePct": 39
+},
+{
+"name": "후평3동",
+"households": 8820,
+"onePct": 39
+}
+],
+"gus": [],
+"rankDogs": 27,
+"rankPer100": 17,
+"rankOf": 61
+},
+"강릉": {
+"label": "강릉시",
+"sido": "강원",
+"sidoName": "강원특별자치도",
+"level": "city",
+"households": 106098,
+"onePct": 46,
+"dogs": 13521,
+"cats": 26,
+"per100": 12.7,
+"parts": [
+{
+"name": "교1동",
+"households": 13155,
+"onePct": 42
+},
+{
+"name": "성덕동",
+"households": 11599,
+"onePct": 38
+},
+{
+"name": "내곡동",
+"households": 8894,
+"onePct": 44
+},
+{
+"name": "주문진읍",
+"households": 8788,
+"onePct": 54
+},
+{
+"name": "강남동",
+"households": 7824,
+"onePct": 43
+},
+{
+"name": "홍제동",
+"households": 7027,
+"onePct": 46
+}
+],
+"gus": [],
+"rankDogs": 39,
+"rankPer100": 26,
+"rankOf": 61
+},
+"속초": {
+"label": "속초시",
+"sido": "강원",
+"sidoName": "강원특별자치도",
+"level": "city",
+"households": 41071,
+"onePct": 47,
+"dogs": 6803,
+"cats": 31,
+"per100": 16.6,
+"parts": [
+{
+"name": "조양동",
+"households": 13677,
+"onePct": 40
+},
+{
+"name": "노학동",
+"households": 10264,
+"onePct": 48
+},
+{
+"name": "교동",
+"households": 4653,
+"onePct": 52
+},
+{
+"name": "금호동",
+"households": 3031,
+"onePct": 48
+},
+{
+"name": "청호동",
+"households": 2636,
+"onePct": 55
+},
+{
+"name": "동명동",
+"households": 2627,
+"onePct": 44
+}
+],
+"gus": [],
+"rankDogs": 56,
+"rankPer100": 3,
+"rankOf": 61
+},
+"제주시": {
+"label": "제주시",
+"sido": "제주",
+"sidoName": "제주특별자치도",
+"level": "city",
+"households": 228727,
+"onePct": 43,
+"dogs": 39440,
+"cats": 2499,
+"per100": 17.2,
+"parts": [
+{
+"name": "노형동",
+"households": 24579,
+"onePct": 40
+},
+{
+"name": "연동",
+"households": 23022,
+"onePct": 55
+},
+{
+"name": "이도2동",
+"households": 20521,
+"onePct": 40
+},
+{
+"name": "애월읍",
+"households": 18540,
+"onePct": 44
+},
+{
+"name": "아라동",
+"households": 18288,
+"onePct": 40
+},
+{
+"name": "일도2동",
+"households": 13663,
+"onePct": 37
+}
+],
+"gus": [],
+"rankDogs": 11,
+"rankPer100": 1,
+"rankOf": 61
+},
+"서귀포": {
+"label": "서귀포시",
+"sido": "제주",
+"sidoName": "제주특별자치도",
+"level": "city",
+"households": 89160,
+"onePct": 46,
+"dogs": 13367,
+"cats": 466,
+"per100": 15.0,
+"parts": [
+{
+"name": "대정읍",
+"households": 10842,
+"onePct": 45
+},
+{
+"name": "동홍동",
+"households": 10081,
+"onePct": 38
+},
+{
+"name": "남원읍",
+"households": 8935,
+"onePct": 46
+},
+{
+"name": "성산읍",
+"households": 8067,
+"onePct": 53
+},
+{
+"name": "대륜동",
+"households": 6909,
+"onePct": 40
+},
+{
+"name": "대천동",
+"households": 6670,
+"onePct": 45
+}
+],
+"gus": [],
+"rankDogs": 41,
+"rankPer100": 11,
+"rankOf": 61
+}
+},
+"places": {
+"부산": {
+"label": "부산",
+"households": 1583244,
+"onePct": 43,
+"dogs": 195988,
+"cats": 854,
+"scope": "시"
+},
+"명지": {
+"label": "강서구 명지동",
+"gu": "강서구",
+"households": 67254,
+"onePct": 36,
+"dogs": 6348,
+"cats": 26,
+"scope": "구",
+"dongHouseholds": 32396,
+"dongOnePct": 27,
+"dongUnits": [
+"명지1동",
+"명지2동"
+]
+},
+"대저": {
+"label": "강서구 대저동",
+"gu": "강서구",
+"households": 67254,
+"onePct": 36,
+"dogs": 6348,
+"cats": 26,
+"scope": "구",
+"dongHouseholds": 6379,
+"dongOnePct": 55,
+"dongUnits": [
+"대저1동",
+"대저2동"
+]
+},
+"양정": {
+"label": "부산진구 양정동",
+"gu": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551,
+"cats": 101,
+"scope": "구",
+"dongHouseholds": 21265,
+"dongOnePct": 51,
+"dongUnits": [
+"양정제1동",
+"양정제2동"
+]
+},
+"서면": {
+"label": "부산진구 서면(부전동)",
+"gu": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551,
+"cats": 101,
+"scope": "구",
+"dongHouseholds": 17521,
+"dongOnePct": 70,
+"dongUnits": [
+"부전제1동",
+"부전제2동"
+]
+},
+"전포": {
+"label": "부산진구 전포동",
+"gu": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551,
+"cats": 101,
+"scope": "구",
+"dongHouseholds": 24974,
+"dongOnePct": 58,
+"dongUnits": [
+"전포제1동",
+"전포제2동"
+]
+},
+"개금": {
+"label": "부산진구 개금동",
+"gu": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551,
+"cats": 101,
+"scope": "구",
+"dongHouseholds": 26880,
+"dongOnePct": 46,
+"dongUnits": [
+"개금제1동",
+"개금제2동",
+"개금제3동"
+]
+},
+"진구": {
+"label": "부산진구",
+"gu": "부산진구",
+"households": 189483,
+"onePct": 48,
+"dogs": 20551,
+"cats": 101,
+"scope": "구"
+},
+"해운대": {
+"label": "해운대구",
+"gu": "해운대구",
+"households": 169976,
+"onePct": 37,
+"dogs": 25980,
+"cats": 114,
+"scope": "구"
+},
+"센텀": {
+"label": "해운대구 센텀(우동)",
+"gu": "해운대구",
+"households": 169976,
+"onePct": 37,
+"dogs": 25980,
+"cats": 114,
+"scope": "구",
+"dongHouseholds": 34334,
+"dongOnePct": 30,
+"dongUnits": [
+"우제1동",
+"우제2동",
+"우제3동"
+]
+},
+"중동": {
+"label": "해운대구 중동",
+"gu": "해운대구",
+"households": 169976,
+"onePct": 37,
+"dogs": 25980,
+"cats": 114,
+"scope": "구",
+"dongHouseholds": 20103,
+"dongOnePct": 40,
+"dongUnits": [
+"중제1동",
+"중제2동"
+]
+},
+"남포동": {
+"label": "중구 남포동",
+"gu": "중구",
+"households": 23236,
+"onePct": 65,
+"dogs": 3213,
+"cats": 24,
+"scope": "구",
+"dongHouseholds": 547,
+"dongOnePct": 75,
+"dongUnits": [
+"남포동"
+]
+},
+"정관": {
+"label": "기장군 정관읍",
+"gu": "기장군",
+"households": 80959,
+"onePct": 39,
+"dogs": 10099,
+"cats": 27,
+"scope": "구",
+"dongHouseholds": 31791,
+"dongOnePct": 31,
+"dongUnits": [
+"정관읍"
+]
+},
+"기장": {
+"label": "기장군",
+"gu": "기장군",
+"households": 80959,
+"onePct": 39,
+"dogs": 10099,
+"cats": 27,
+"scope": "구"
+},
+"화명동": {
+"label": "북구 화명동",
+"gu": "북구",
+"households": 122225,
+"onePct": 38,
+"dogs": 13754,
+"cats": 50,
+"scope": "구",
+"dongHouseholds": 32449,
+"dongOnePct": 22,
+"dongUnits": [
+"화명제1동",
+"화명제2동",
+"화명제3동"
+]
+},
+"구포": {
+"label": "북구 구포동",
+"gu": "북구",
+"households": 122225,
+"onePct": 38,
+"dogs": 13754,
+"cats": 50,
+"scope": "구",
+"dongHouseholds": 27837,
+"dongOnePct": 46,
+"dongUnits": [
+"구포제1동",
+"구포제2동",
+"구포제3동"
+]
+},
+"대연동": {
+"label": "남구 대연동",
+"gu": "남구",
+"households": 122211,
+"onePct": 41,
+"dogs": 17655,
+"cats": 115,
+"scope": "구",
+"dongHouseholds": 49056,
+"dongOnePct": 49,
+"dongUnits": [
+"대연제1동",
+"대연제3동",
+"대연제4동",
+"대연제5동",
+"대연제6동"
+]
+},
+"연산동": {
+"label": "연제구 연산동",
+"gu": "연제구",
+"households": 101159,
+"onePct": 41,
+"dogs": 11175,
+"cats": 36,
+"scope": "구",
+"dongHouseholds": 72108,
+"dongOnePct": 46,
+"dongUnits": [
+"연산제1동",
+"연산제2동",
+"연산제3동",
+"연산제4동",
+"연산제5동",
+"연산제6동",
+"연산제8동",
+"연산제9동"
+]
+},
+"연제구": {
+"label": "연제구",
+"gu": "연제구",
+"households": 101159,
+"onePct": 41,
+"dogs": 11175,
+"cats": 36,
+"scope": "구"
+},
+"광안리": {
+"label": "수영구 광안동",
+"gu": "수영구",
+"households": 88619,
+"onePct": 48,
+"dogs": 11817,
+"cats": 79,
+"scope": "구",
+"dongHouseholds": 37681,
+"dongOnePct": 57,
+"dongUnits": [
+"광안제1동",
+"광안제2동",
+"광안제3동",
+"광안제4동"
+]
+},
+"광안": {
+"label": "수영구 광안동",
+"gu": "수영구",
+"households": 88619,
+"onePct": 48,
+"dogs": 11817,
+"cats": 79,
+"scope": "구",
+"dongHouseholds": 37681,
+"dongOnePct": 57,
+"dongUnits": [
+"광안제1동",
+"광안제2동",
+"광안제3동",
+"광안제4동"
+]
+},
+"주례": {
+"label": "사상구 주례동",
+"gu": "사상구",
+"households": 98594,
+"onePct": 46,
+"dogs": 10366,
+"cats": 29,
+"scope": "구",
+"dongHouseholds": 23691,
+"dongOnePct": 44,
+"dongUnits": [
+"주례제1동",
+"주례제2동",
+"주례제3동"
+]
+},
+"사상": {
+"label": "사상구",
+"gu": "사상구",
+"households": 98594,
+"onePct": 46,
+"dogs": 10366,
+"cats": 29,
+"scope": "구"
+},
+"하단": {
+"label": "사하구 하단동",
+"gu": "사하구",
+"households": 139035,
+"onePct": 43,
+"dogs": 17669,
+"cats": 31,
+"scope": "구",
+"dongHouseholds": 25439,
+"dongOnePct": 55,
+"dongUnits": [
+"하단제1동",
+"하단제2동"
+]
+},
+"장림": {
+"label": "사하구 장림동",
+"gu": "사하구",
+"households": 139035,
+"onePct": 43,
+"dogs": 17669,
+"cats": 31,
+"scope": "구",
+"dongHouseholds": 17791,
+"dongOnePct": 39,
+"dongUnits": [
+"장림제1동",
+"장림제2동"
+]
+},
+"사하구": {
+"label": "사하구",
+"gu": "사하구",
+"households": 139035,
+"onePct": 43,
+"dogs": 17669,
+"cats": 31,
+"scope": "구"
+},
+"창원": {
+"label": "창원시",
+"gu": "창원시",
+"households": 464666,
+"onePct": 40,
+"dogs": 51262,
+"cats": 279,
+"scope": "구"
+},
+"마산": {
+"label": "창원시 마산",
+"gu": "창원시 마산",
+"households": 169372,
+"onePct": 42,
+"dogs": 17119,
+"cats": 108,
+"scope": "구"
+},
+"진해": {
+"label": "창원시 진해구",
+"gu": "창원시 진해구",
+"households": 85556,
+"onePct": 40,
+"dogs": 10939,
+"cats": 30,
+"scope": "구"
+},
+"김해": {
+"label": "김해시",
+"gu": "김해시",
+"households": 241755,
+"onePct": 37,
+"dogs": 29279,
+"cats": 162,
+"scope": "구"
+},
+"장유": {
+"label": "김해시 장유",
+"gu": "김해시",
+"households": 241755,
+"onePct": 37,
+"dogs": 29279,
+"cats": 162,
+"scope": "구",
+"dongHouseholds": 73893,
+"dongOnePct": 29,
+"dongUnits": [
+"장유1동",
+"장유2동",
+"장유3동"
+]
+},
+"양산": {
+"label": "양산시",
+"gu": "양산시",
+"households": 167332,
+"onePct": 39,
+"dogs": 18369,
+"cats": 76,
+"scope": "구"
+},
+"거제": {
+"label": "거제시",
+"gu": "거제시",
+"households": 107474,
+"onePct": 40,
+"dogs": 13524,
+"cats": 61,
+"scope": "구"
+},
+"거제도": {
+"label": "거제시",
+"gu": "거제시",
+"households": 107474,
+"onePct": 40,
+"dogs": 13524,
+"cats": 61,
+"scope": "구"
+}
+}
+}
