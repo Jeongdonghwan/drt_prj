@@ -59,6 +59,18 @@
 "households": 199708,
 "onePct": 43,
 "dogs": 23921
+},
+{
+"name": "영등포구",
+"households": 193476,
+"onePct": 51,
+"dogs": 18695
+},
+{
+"name": "중랑구",
+"households": 191057,
+"onePct": 47,
+"dogs": 22856
 }
 ],
 "rankDogs": 2,
@@ -123,6 +135,18 @@
 "households": 101159,
 "onePct": 41,
 "dogs": 11175
+},
+{
+"name": "사상구",
+"households": 98594,
+"onePct": 46,
+"dogs": 10366
+},
+{
+"name": "수영구",
+"households": 88619,
+"onePct": 48,
+"dogs": 11817
 }
 ],
 "rankDogs": 4,
@@ -136,9 +160,9 @@
 "level": "sido",
 "households": 1123626,
 "onePct": 41,
-"dogs": 128224,
-"cats": 1061,
-"per100": 11.4,
+"dogs": 128682,
+"cats": 1063,
+"per100": 11.5,
 "parts": [
 {
 "name": "달서구",
@@ -187,10 +211,16 @@
 "households": 51279,
 "onePct": 47,
 "dogs": 4836
+},
+{
+"name": "군위군",
+"households": 13521,
+"onePct": 55,
+"dogs": 458
 }
 ],
 "rankDogs": 6,
-"rankPer100": 10,
+"rankPer100": 8,
 "rankOf": 17
 },
 "인천": {
@@ -251,6 +281,18 @@
 "households": 67950,
 "onePct": 47,
 "dogs": null
+},
+{
+"name": "제물포구",
+"households": 51419,
+"onePct": 47,
+"dogs": null
+},
+{
+"name": "강화군",
+"households": 36333,
+"onePct": 46,
+"dogs": 4477
 }
 ],
 "rankDogs": 3,
@@ -392,7 +434,7 @@
 }
 ],
 "rankDogs": 15,
-"rankPer100": 8,
+"rankPer100": 9,
 "rankOf": 17
 },
 "세종": {
@@ -452,6 +494,18 @@
 "name": "소담동",
 "households": 8433,
 "onePct": 27,
+"dogs": null
+},
+{
+"name": "아름동",
+"households": 8014,
+"onePct": 16,
+"dogs": null
+},
+{
+"name": "보람동",
+"households": 6895,
+"onePct": 22,
 "dogs": null
 }
 ],
@@ -517,6 +571,18 @@
 "households": 302078,
 "onePct": 45,
 "dogs": 37182
+},
+{
+"name": "안산시",
+"households": 289639,
+"onePct": 43,
+"dogs": 48025
+},
+{
+"name": "안양시",
+"households": 241372,
+"onePct": 33,
+"dogs": 36736
 }
 ],
 "rankDogs": 1,
@@ -581,6 +647,18 @@
 "households": 24175,
 "onePct": 47,
 "dogs": 2188
+},
+{
+"name": "평창군",
+"households": 22285,
+"onePct": 51,
+"dogs": 1550
+},
+{
+"name": "영월군",
+"households": 20705,
+"onePct": 54,
+"dogs": 1584
 }
 ],
 "rankDogs": 9,
@@ -645,10 +723,22 @@
 "households": 22065,
 "onePct": 55,
 "dogs": 2721
+},
+{
+"name": "증평군",
+"households": 19207,
+"onePct": 49,
+"dogs": 2181
+},
+{
+"name": "보은군",
+"households": 17518,
+"onePct": 50,
+"dogs": 1636
 }
 ],
 "rankDogs": 11,
-"rankPer100": 9,
+"rankPer100": 10,
 "rankOf": 17
 },
 "충남": {
@@ -709,6 +799,18 @@
 "households": 48906,
 "onePct": 49,
 "dogs": 4471
+},
+{
+"name": "예산군",
+"households": 41142,
+"onePct": 46,
+"dogs": 6324
+},
+{
+"name": "태안군",
+"households": 33419,
+"onePct": 51,
+"dogs": 2718
 }
 ],
 "rankDogs": 8,
@@ -773,6 +875,18 @@
 "households": 28339,
 "onePct": 54,
 "dogs": 1818
+},
+{
+"name": "부안군",
+"households": 27409,
+"onePct": 56,
+"dogs": 1413
+},
+{
+"name": "순창군",
+"households": 15189,
+"onePct": 52,
+"dogs": 733
 }
 ],
 "rankDogs": 13,
@@ -837,6 +951,18 @@
 "households": 34481,
 "onePct": 52,
 "dogs": 4869
+},
+{
+"name": "화순군",
+"households": 31621,
+"onePct": 50,
+"dogs": 2725
+},
+{
+"name": "영광군",
+"households": 28538,
+"onePct": 51,
+"dogs": 2018
 }
 ],
 "rankDogs": 12,
@@ -850,8 +976,8 @@
 "level": "sido",
 "households": 1304123,
 "onePct": 48,
-"dogs": 121215,
-"cats": 861,
+"dogs": 120757,
+"cats": 859,
 "per100": 9.3,
 "parts": [
 {
@@ -901,6 +1027,18 @@
 "households": 53414,
 "onePct": 54,
 "dogs": 3830
+},
+{
+"name": "영주시",
+"households": 51307,
+"onePct": 48,
+"dogs": 3883
+},
+{
+"name": "상주시",
+"households": 48817,
+"onePct": 50,
+"dogs": 3859
 }
 ],
 "rankDogs": 7,
@@ -965,6 +1103,18 @@
 "households": 54294,
 "onePct": 51,
 "dogs": 5814
+},
+{
+"name": "창녕군",
+"households": 31595,
+"onePct": 55,
+"dogs": 2645
+},
+{
+"name": "거창군",
+"households": 31402,
+"onePct": 49,
+"dogs": 2717
 }
 ],
 "rankDogs": 5,

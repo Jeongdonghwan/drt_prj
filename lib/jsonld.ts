@@ -38,6 +38,6 @@ export const pageListJsonLd = (name: string, items: { name: string; path: string
 export const ogMeta = (title: string, description: string, path: string, slug: string) => ({
   title, description,
   alternates: { canonical: path },
-  openGraph: { type: 'website' as const, siteName: BRAND, locale: 'ko_KR', title, description, url: path, images: [{ url: `/og/${slug}.jpg`, width: 1200, height: 630, alt: title }] },
-  twitter: { card: 'summary_large_image' as const, title, description, images: [`/og/${slug}.jpg`] },
+  openGraph: { type: 'website' as const, siteName: BRAND, locale: 'ko_KR', title, description, url: path, images: [{ url: `/og/${slug}.jpg?v=2`, width: 1200, height: 630, alt: title }] },
+  twitter: { card: 'summary_large_image' as const, title, description, images: [`/og/${slug}.jpg?v=2`] },
 });

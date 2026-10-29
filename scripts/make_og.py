@@ -46,9 +46,9 @@ def main():
     alias, by_id = breeds['alias'], {b['id']: b for b in breeds['breeds']}
     keys = sorted(alias, key=len, reverse=True)
     pool = {k: [os.path.join(IMG, 'b', f'{p}.webp') for b in breeds['breeds'] if b['kind'] == k and 'special' not in (b['site'] or '') for p in b['photos']] for k in ('dog', 'cat')}
-    store_rooms = [os.path.join(IMG, f) for f in ('place-hall-1.webp', 'place-hall-2.webp', 'place-hall-3.webp', 'place-front.webp')]  # 부산본점 매장 사진
+    store_rooms = [os.path.join(IMG, 'place-front.webp')]  # 부산본점 외관(간판이 보이는 사진, 사용자 선택 2026-10-29)
     pages = json.load(open(os.path.join(ROOT, 'data', 'pages.json'), encoding='utf-8'))
-    items = [('home', '도로시펫 부산본점', '강아지·고양이 분양 · 홈딜리버리', [os.path.join(IMG, 'place-hall-1.webp')]),
+    items = [('home', '도로시펫 부산본점', '강아지·고양이 분양 · 홈딜리버리', [os.path.join(IMG, 'place-front.webp')]),
              ('area', '도로시펫 분양 안내', '견종별 · 부산 동네별', [os.path.join(IMG, 'hero-cat.webp')])]
     for p in pages['store']:
         k = p['kw'].replace(' ', '')

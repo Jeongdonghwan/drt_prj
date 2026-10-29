@@ -81,6 +81,11 @@ def main():
     reg_long = defaultdict(list)
     for r in reg_rows:
         if r[1]: reg_long[SIDO_ALIAS.get(r[0], r[0])].append((r[1], int(r[2]), int(r[3])))
+    # 군위군: 2023.7 경북 → 대구 편입. 2022 등록 자료는 경북에 있어 세대(2026, 대구 포함)와 맞추려고 대구로 옮긴다
+    gw = next(x for x in reg_long['경북'] if x[0] == '군위군')
+    reg_long['경북'].remove(gw); reg_long['대구'].append(gw)
+    reg_sido['경북'] = (reg_sido['경북'][0] - gw[1], reg_sido['경북'][1] - gw[2])
+    reg_sido['대구'] = (reg_sido['대구'][0] + gw[1], reg_sido['대구'][1] + gw[2])
     hh = list(csv.DictReader(open(os.path.join(ROOT, 'raw', 'public', 'mois_households_20260930.csv'), encoding='cp949')))
     for r in hh: r['t'], r['one'] = int(r['전체세대수']), int(r['1인세대'])
 
@@ -108,11 +113,11 @@ def main():
         t, one = hh_sum(hh_sido(k))
         d, c = reg_sido[short]
         out[k] = pack(name, k, t, one, d, c, 'sido')
-        # 시도 안 시군구 나눔 (짧은 표기 페이지용): 세대 많은 순 8곳 + 2022 반려견 등록
+        # 시도 안 시군구 나눔 (짧은 표기 페이지용): 세대 많은 순 10곳 + 2022 반려견 등록
         by = defaultdict(list)
         for r in hh_sido(k): by[r['시군구명'].split(' ')[0] or r['읍면동명']].append(r)
         parts = []
-        for nm, rows in sorted(by.items(), key=lambda x: -sum(r['t'] for r in x[1]))[:8]:
+        for nm, rows in sorted(by.items(), key=lambda x: -sum(r['t'] for r in x[1]))[:10]:
             pt, po = hh_sum(rows)
             base = nm[:-1] if len(nm) > 2 and nm[-1] in '시군구' else nm
             dd = sum(x[1] for x in reg_long[short if short in reg_long else k] if x[0].startswith(base)) if k not in ('세종',) else None
