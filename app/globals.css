@@ -353,9 +353,11 @@ body { padding-bottom: 66px; }
 .rooms-photo figure:hover img { transform: scale(1.04); }
 .rooms-photo figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 26px 16px 12px; color: #fff; font-size: .82rem; font-weight: 600; background: linear-gradient(transparent, rgba(20, 24, 31, .62)); }
 @media (max-width: 640px) { .rooms-photo { grid-template-columns: 1fr 1fr; grid-template-rows: 220px 140px; } .rooms-photo figure:first-child { grid-row: auto; grid-column: span 2; } }
-.steps11 { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 0; counter-reset: s; border-top: 2px solid var(--ink); }
-.steps11 li { counter-increment: s; padding: 16px 14px 18px 0; border-bottom: 1px solid var(--line); font-weight: 600; }
-.steps11 li::before { content: counter(s, decimal-leading-zero); display: block; color: var(--green-2); font-size: .8rem; font-weight: 700; margin-bottom: 4px; }
+.steps11 { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); row-gap: 34px; counter-reset: s; }
+.steps11 li { counter-increment: s; position: relative; padding: 26px 18px 0 0; border-top: 2px solid var(--line); font-weight: 600; line-height: 1.5; }
+.steps11 li::after { content: ''; position: absolute; top: -7px; left: 0; width: 12px; height: 12px; background: var(--paper, #fff); border: 2px solid var(--green-2); }
+.steps11 li:first-child::after, .steps11 li:last-child::after { background: var(--green-2); }
+.steps11 li::before { content: counter(s, decimal-leading-zero); display: block; color: var(--green-2); font-size: 1.35rem; font-weight: 800; letter-spacing: -.02em; margin-bottom: 6px; font-variant-numeric: tabular-nums; }
 .compare { width: 100%; border-collapse: collapse; margin-top: 22px; font-size: .94rem; }
 .compare th, .compare td { padding: 11px 12px 11px 0; border-bottom: 1px solid var(--line); text-align: left; font-variant-numeric: tabular-nums; }
 .compare thead th { font-size: .76rem; color: var(--muted); font-weight: 500; border-bottom: 2px solid var(--ink); }
@@ -383,4 +385,4 @@ body { padding-bottom: 66px; }
 .sub-h { font-size: 1.05rem; margin: 30px 0 12px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .steps11.with-d li span { display: block; font-weight: 400; font-size: .88rem; color: var(--muted); margin-top: 4px; line-height: 1.55; }
-.steps11.with-d { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.steps11.with-d { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }

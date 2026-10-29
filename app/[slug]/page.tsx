@@ -123,7 +123,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
           {c.delivery && (
             <>
               <h3 className="sub-h">홈딜리버리 순서</h3>
-              <ol className="steps11">{c.delivery.map((d) => <li key={d}>{d}</li>)}</ol>
+              <ol className="steps11 reveal-group">{c.delivery.map((d) => <li key={d}>{d}</li>)}</ol>
             </>
           )}
           <div className="rooms-photo">

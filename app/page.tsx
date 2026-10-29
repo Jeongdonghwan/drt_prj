@@ -98,7 +98,7 @@ export default function Home() {
 
         <section className="sec alt">
           <SectionHead no="06" title="홈딜리버리" sub="매장 상담으로 분양을 정한 뒤, 직접 오기 어려우면 집까지 데려다줍니다." />
-          <ol className="steps11">{DELIVERY_STEPS.map((d) => <li key={d}>{d}</li>)}</ol>
+          <ol className="steps11 reveal-group">{DELIVERY_STEPS.map((d) => <li key={d}>{d}</li>)}</ol>
         </section>
 
         <section className="sec" id="faq">
