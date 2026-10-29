@@ -49,7 +49,7 @@ export const Footer = () => (
     <div className="wrap foot-grid">
       <div>
         <strong className="foot-brand">{BRAND}</strong>
-        <p>강아지·고양이 분양, 애견미용·호텔, 홈딜리버리. 가맹점 모집 중.</p>
+        <p>강아지·고양이 분양, 홈딜리버리, 분양 후 사후관리. 가맹점 모집 중.</p>
         <ul className="foot-branches">{BRANCHES.map((b) => <li key={b.name}><b>{b.name}</b> {b.address} · {b.phone}</li>)}</ul>
         <p className="foot-links"><a href={LINKS.home} target="_blank" rel="noopener">dorothypet.co.kr</a><a href={LINKS.instagram} target="_blank" rel="noopener">인스타그램</a><a href={LINKS.youtube} target="_blank" rel="noopener">유튜브</a><a href={LINKS.blog} target="_blank" rel="noopener">블로그</a></p>
       </div>

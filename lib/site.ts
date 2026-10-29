@@ -53,18 +53,6 @@ export const DELIVERY_STEPS = [
   '계약서 작성·주의사항 설명 후 완료',
 ];
 
-// 애견호텔 (grooming-hotel) — 체크아웃 익일 12시
-export const HOTEL = [
-  { w: '4kg 미만', weekday: 20000, weekend: 25000 },
-  { w: '4kg 이상', weekday: 25000, weekend: 30000 },
-];
-// 애견미용 소형견 기준 (grooming-hotel)
-export const GROOMING = [
-  { w: '0~4kg 미만', bath: 25000, full: 45000, face: 50000, sporting: 75000, scissor: 80000 },
-  { w: '4~6kg', bath: 30000, full: 50000, face: 55000, sporting: 80000, scissor: 90000 },
-  { w: '6~8kg 미만', bath: 35000, full: 55000, face: 60000, sporting: 85000, scissor: 100000 },
-];
-
 // 매장 약속 (about·상세 페이지 공통 문구)
 export const PROMISES = [
   { t: '건강 상태 확인', d: '입양 전 예비 견주·묘주님이 직접 기본검사로 건강 상태를 확인한 뒤 분양합니다.' },

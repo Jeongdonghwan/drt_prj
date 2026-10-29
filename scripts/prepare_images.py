@@ -23,7 +23,7 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8')
     os.makedirs(os.path.join(OUT, 'b'), exist_ok=True)
     for src, dst, w in [('pillar-01.jpg', 'hero-dog.webp', 1400), ('pillar-02.jpg', 'hero-cat.webp', 1400), ('pillar-03.jpg', 'hero-puppy.webp', 1400),
-                        ('hotel-1.png', 'store-groom.webp', 900), ('grooming-1.png', 'store-dryer.webp', 900), ('grooming-2.png', 'store-hotel.webp', 900),
+                        # 미용실·드라이룸·호텔 사진은 쓰지 않음(사용자 요청 2026-10-29). 매장 사진은 raw/place(네이버 플레이스 업체 사진) → public/images/place-*.webp
                         ('logo-black.png', 'logo.webp', 400)]:
         save(os.path.join(SITE, 'img', src), os.path.join(OUT, dst), w)
     breeds = json.load(open(os.path.join(SITE, 'breeds.json'), encoding='utf-8'))

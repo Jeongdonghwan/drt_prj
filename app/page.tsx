@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { BREEDS, STORE_PAGES, Breed, storePath, storeEncPath } from '../lib/data';
-import { BRAND, BUSINESS, FRANCHISE_SITE, ADOPT_STEPS, PROMISES, HOTEL, GROOMING, DELIVERY_STEPS } from '../lib/site';
+import { BRAND, BUSINESS, FRANCHISE_SITE, ADOPT_STEPS, PROMISES, DELIVERY_STEPS } from '../lib/site';
 import { faqJsonLd, pageListJsonLd, ogMeta } from '../lib/jsonld';
 import { Actions, IconArrow, JsonLd, SectionHead } from '../components/Common';
 
-const base = ogMeta(`${BRAND} 부산본점 | 강아지·고양이 분양, 애견미용·호텔`, `${BRAND} 부산본점 강아지·고양이 분양. 방문 예약 1:1 상담, 동물병원 건강 확인, 계약서, 사후관리, 홈딜리버리. 애견미용·호텔. 010-2236-8276.`, '/', 'home');
+const base = ogMeta(`${BRAND} 부산본점 | 강아지·고양이 분양 상담`, `${BRAND} 부산본점 강아지·고양이 분양. 방문 예약 1:1 상담, 동물병원 건강 확인, 계약서, 사후관리, 홈딜리버리. 010-2236-8276.`, '/', 'home');
 export const metadata = { ...base, alternates: { ...base.alternates, types: { 'application/rss+xml': [{ url: '/rss.xml', title: `${BRAND} 분양 안내` }] } } };
 
 const FAQ = [
@@ -13,7 +13,6 @@ const FAQ = [
   { q: '멀리 살아도 분양받을 수 있나요?', a: '매장 상담으로 분양을 정한 뒤 홈딜리버리로 집까지 데려다줍니다.' },
   { q: '방문은 예약제인가요?', a: '전화·오픈카톡·인스타그램 DM으로 예약하면 1:1로 상담합니다.' },
 ];
-const won = (x: number) => `${x.toLocaleString()}원`;
 
 const listed = (kind: 'dog' | 'cat') =>
   BREEDS.filter((b) => b.kind === kind && b.siteCount && b.photos.length && !/special/.test(b.site || '')).sort((a, b) => b.siteCount! - a.siteCount!).slice(0, 12);
@@ -42,7 +41,7 @@ export default function Home() {
     <main>
       <JsonLd data={[faqJsonLd(FAQ), pageListJsonLd(`${BRAND} 분양 안내`, top.map((x) => ({ name: x.kw, path: storeEncPath(x) })))]} />
       <section className="hero hero-home">
-        <img className="hero-bg" src="/images/hero-dog.webp" alt={`${BRAND} 부산본점 분양 강아지 사진`} fetchPriority="high" />
+        <img className="hero-bg" src="/images/place-hall-1.webp" alt={`${BRAND} 부산본점 분양 매장 내부 사진`} fetchPriority="high" />
         <div className="wrap">
           <div className="hero-copy">
             <p className="hero-label">PREMIUM CARE HOUSE · BUSAN</p>
@@ -79,20 +78,13 @@ export default function Home() {
       </section>
 
       <div className="wrap content">
+
         <section className="sec">
-          <SectionHead no="05" title="애견호텔 · 애견미용" sub="호텔 체크아웃은 다음 날 12시 · 미용은 소형견 기준" />
-          <div className="price-wrap" data-reveal><table className="price-table">
-            <thead><tr><th scope="col">호텔</th><th scope="col">평일</th><th scope="col">주말</th></tr></thead>
-            <tbody>{HOTEL.map((h) => <tr key={h.w}><th scope="row">{h.w}</th><td>{won(h.weekday)}</td><td>{won(h.weekend)}</td></tr>)}</tbody>
-          </table></div>
-          <div className="price-wrap" data-reveal><table className="price-table">
-            <thead><tr><th scope="col">미용</th><th scope="col">목욕+위생</th><th scope="col">전체미용</th><th scope="col">전체+얼굴컷</th><th scope="col">스포팅</th><th scope="col">가위컷</th></tr></thead>
-            <tbody>{GROOMING.map((g) => <tr key={g.w}><th scope="row">{g.w}</th><td>{won(g.bath)}</td><td>{won(g.full)}</td><td>{won(g.face)}</td><td>{won(g.sporting)}</td><td>{won(g.scissor)}</td></tr>)}</tbody>
-          </table></div>
+          <SectionHead no="05" title="부산본점 매장" sub={`${BUSINESS.address} · 방문 예약 후 1:1 상담`} />
           <div className="rooms-photo">
-            <figure data-reveal><img src="/images/store-groom.webp" alt={`${BRAND} 부산본점 미용실`} loading="lazy" /><figcaption>미용실</figcaption></figure>
-            <figure data-reveal><img src="/images/store-dryer.webp" alt={`${BRAND} 부산본점 드라이룸`} loading="lazy" /><figcaption>드라이룸</figcaption></figure>
-            <figure data-reveal><img src="/images/store-hotel.webp" alt={`${BRAND} 부산본점 애견호텔`} loading="lazy" /><figcaption>호텔</figcaption></figure>
+            <figure data-reveal><img src="/images/place-front.webp" alt={`${BRAND} 부산본점 매장 외관`} loading="lazy" /><figcaption>매장 외관</figcaption></figure>
+            <figure data-reveal><img src="/images/place-hall-2.webp" alt={`${BRAND} 부산본점 상담 공간`} loading="lazy" /><figcaption>상담 공간</figcaption></figure>
+            <figure data-reveal><img src="/images/place-hall-3.webp" alt={`${BRAND} 부산본점 분양 공간`} loading="lazy" /><figcaption>분양 공간</figcaption></figure>
           </div>
         </section>
 

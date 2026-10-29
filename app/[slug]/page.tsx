@@ -94,19 +94,6 @@ export default function StorePage({ params }: { params: { slug: string } }) {
           </section>
         )}
 
-        {c.mods.has('care') && !c.intentBlock.table && (
-          <section className="sec">
-            <SectionHead no={no()} title={`분양 뒤에도 ${BRAND}에서`} sub="애견호텔 체크아웃은 다음 날 12시 · 미용은 소형견 기준" />
-            <div className="price-wrap" data-reveal><table className="price-table">
-              <thead><tr><th scope="col">애견호텔</th><th scope="col">평일</th><th scope="col">주말</th></tr></thead>
-              <tbody>{c.care.hotel.map((h) => <tr key={h.w}><th scope="row">{h.w}</th><td>{h.weekday.toLocaleString()}원</td><td>{h.weekend.toLocaleString()}원</td></tr>)}</tbody>
-            </table></div>
-            <div className="price-wrap" data-reveal><table className="price-table">
-              <thead><tr><th scope="col">애견미용</th><th scope="col">목욕+위생</th><th scope="col">전체미용</th><th scope="col">가위컷</th></tr></thead>
-              <tbody>{c.care.grooming.map((g) => <tr key={g.w}><th scope="row">{g.w}</th><td>{g.bath.toLocaleString()}원</td><td>{g.full.toLocaleString()}원</td><td>{g.scissor.toLocaleString()}원</td></tr>)}</tbody>
-            </table></div>
-          </section>
-        )}
       </div>
 
       <section className="cta-band" data-reveal>
@@ -127,7 +114,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             </>
           )}
           <div className="rooms-photo">
-            {c.rooms.map(([img, cap], i) => <figure key={img} data-reveal><img src={`/images/${img}.webp`} alt={`${BRAND} 부산본점 ${cap} — ${p.kw}`} loading="lazy" /><figcaption>{BUSINESS.name} {cap}</figcaption></figure>)}
+            {c.rooms.map(([img, cap]) => <figure key={img} data-reveal><img src={`/images/${img}.webp`} alt={`${BUSINESS.name} ${cap} — ${p.kw}`} loading="lazy" /><figcaption>{BUSINESS.name} {cap}</figcaption></figure>)}
           </div>
         </section>
 

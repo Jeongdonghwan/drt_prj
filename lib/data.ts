@@ -14,7 +14,7 @@ export interface Region {
 }
 export interface Place { label: string; gu?: string; households: number; onePct: number; dogs: number; cats: number; scope: string; dongHouseholds?: number; dongOnePct?: number }
 
-export type Intent = 'price' | 'grooming' | 'hotel' | 'shelter' | 'goods' | 'cafe' | 'origin' | 'trust' | 'info' | 'shop' | 'adopt' | 'sale' | 'brand' | 'breed';
+export type Intent = 'price' | 'shelter' | 'goods' | 'cafe' | 'origin' | 'trust' | 'info' | 'shop' | 'adopt' | 'sale' | 'brand' | 'breed';
 export interface StorePage { set: 'store'; kw: string; slug: string; impressions: number; clicks: number; breed?: Breed; generic?: 'dog' | 'cat'; placeKey?: string; place?: Place; intent: Intent }
 export type FrWord = '창업' | '소자본창업' | '강아지분양창업' | '펫샵창업' | '애견샵창업' | '애견분양창업' | '애견분양샵창업' | 'core';
 // breakdown: '포항'·'경기'처럼 짧은 표기 → 구·동·시군 나눔 데이터 중심 / 정식 표기('포항시'·'경기도') → 전체·평균 비교 중심
@@ -32,8 +32,6 @@ const ALIAS_KEYS = Object.keys(ALIAS).sort((a, b) => b.length - a.length);
 const INTENTS: [Intent, RegExp][] = [
   ['brand', /도로시/],
   ['shelter', /유기견|유기묘|보호소|무료|책임분양|센터/],
-  ['grooming', /미용|목욕/],
-  ['hotel', /호텔|숙소/],
   ['goods', /용품/],
   ['cafe', /카페|공원|동반/],
   ['origin', /교배|켄넬|캐터리/],
