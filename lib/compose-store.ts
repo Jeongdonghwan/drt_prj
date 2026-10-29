@@ -1,5 +1,5 @@
 // 매장 키워드 페이지 조합기 (953개).
-// 사실 근거: data/breeds.json(일반 품종 특징 + 사이트 분양 분류·등록 건수·사진), data/regions.json(반려동물 등록·주민등록 세대),
+// 사실 근거: data/breeds.json(일반 품종 특징 + 사이트 분양 분류·등록 건수·사진), data/regions.json(동네 이름만 — 세대·반려동물 통계 문장은 넣지 않음, 사용자 요청 2026-10-29),
 //           lib/site.ts(공식 사이트 문구: 분양 절차·홈딜리버리·지점). 미용·호텔은 넣지 않음(사용자 요청 2026-10-29).
 // 하지 않는 것: 분양가 숫자(사이트도 '상담 문의'), 건강 보장 기간, 할인, 출처 없는 숫자, 경쟁 업체 이름.
 import { StorePage, Intent, BREEDS, hash } from './data';
@@ -181,10 +181,12 @@ export function composeStore(p: StorePage) {
   const regionSec = pl ? {
     heading: pick([`${pl.label}에서 오시는 분께`, `${j(pl.label, '와')} ${BRAND}`, `${pl.label} ${kindWord} 분양`], s, 'rh'),
     body: [
-      pl.scope === '시'
-        ? `${pl.label}에는 주민등록 ${n(pl.households)}세대가 살고(2026년 9월), 반려견 ${n(pl.dogs)}마리·반려묘 ${n(pl.cats)}마리가 등록돼 있습니다(2022년 누계).`
-        : `${pl.gu}에는 주민등록 ${n(pl.households)}세대(1인 세대 ${pl.onePct}%)가 살고, 반려견 ${n(pl.dogs)}마리·반려묘 ${n(pl.cats)}마리가 등록돼 있습니다(2022년 누계).`,
-      pl.dongHouseholds ? `그중 ${pl.label.split(' ').slice(-1)[0]} 일대는 ${n(pl.dongHouseholds)}세대, 1인 세대 비율 ${pl.dongOnePct}%입니다. ${pl.dongOnePct! >= 45 ? `혼자 사는 집이 많아 ${kind === 'cat' ? '독립적인 고양이' : '소형견'} 상담이 잘 맞습니다.` : `가족 세대가 많아 아이와 함께 키울 ${j(kindWord, '를')} 찾는 상담이 잘 맞습니다.`}` : '',
+      ...rotate([
+        `${pl.label}에서 ${name} 분양을 알아보신다면 방문 전 전화나 카톡으로 날짜를 먼저 잡아 주세요. 예약 시간에 1:1로 상담합니다.`,
+        `${pl.label}에서 오시는 분도 부산본점에서 ${j(name, '를')} 직접 보고, 성격과 생활 습관 설명을 들은 뒤 결정합니다.`,
+        `${pl.label} 보호자님이 많이 묻는 것은 건강 확인과 사후관리입니다. 건강은 동물병원에서 직접 확인하고, 분양 뒤 상담은 추가 비용이 없습니다.`,
+        `${pl.label}에서 ${name} 분양을 정하면 계약서에 상태와 주의사항을 적고, 사료 급여와 적응 기간을 함께 안내합니다.`,
+      ], s, 'rgb').slice(0, 2),
       /경남|창원|김해|양산|거제|진해|마산|장유/.test(pl.label) || !/구/.test(pl.label)
         ? `${pl.label}에서 부산 사상구까지 오기 어려우면, 매장 상담으로 분양을 정한 뒤 홈딜리버리로 집까지 데려다줍니다.`
         : `${pl.label}에서는 부산본점(사상구 주례동)으로 방문 예약 후 오시면 됩니다.`,
@@ -194,7 +196,7 @@ export function composeStore(p: StorePage) {
     body: [
       `${BRAND}은 부산본점 외에 대구점·광주점이 있습니다. 지점마다 분양 아이가 달라 방문 전 전화로 확인해 주세요.`,
       ...BRANCHES.map((br) => `${br.name}: ${br.address}, ${br.phone}.`),
-      `부산본점이 있는 사상구는 반려견 ${n(10366)}마리가 등록된 지역입니다(2022년 누계). ${name} 상담은 본점 기준으로 안내합니다.`,
+      `${name} 상담은 부산본점 기준으로 안내합니다. 방문 전 전화로 예약하면 1:1로 상담합니다.`,
     ],
   };
 
