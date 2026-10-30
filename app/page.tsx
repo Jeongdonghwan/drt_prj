@@ -4,7 +4,7 @@ import { BRAND, BUSINESS, FRANCHISE_SITE, ADOPT_STEPS, PROMISES, DELIVERY_STEPS 
 import { faqJsonLd, pageListJsonLd, ogMeta } from '../lib/jsonld';
 import { Actions, IconArrow, JsonLd, SectionHead } from '../components/Common';
 
-const base = ogMeta(`${BRAND} 부산본점 | 강아지·고양이 분양 상담`, `${BRAND} 부산본점 강아지·고양이 분양. 방문 예약 1:1 상담, 동물병원 건강 확인, 계약서, 사후관리, 홈딜리버리. 010-2236-8276.`, '/', 'home');
+const base = ogMeta(`부산강아지분양 ${BRAND} 부산본점 | 강아지·고양이 분양 상담`, `${BRAND} 부산본점 강아지·고양이 분양. 방문 예약 1:1 상담, 동물병원 건강 확인, 계약서, 사후관리, 홈딜리버리. 010-2236-8276.`, '/', 'home');
 export const metadata = { ...base, alternates: { ...base.alternates, types: { 'application/rss+xml': [{ url: '/rss.xml', title: `${BRAND} 분양 안내` }] } } };
 
 const FAQ = [
