@@ -63,7 +63,7 @@ python -I ~/.claude/skills/site-launch/scripts/check_all.py C:/side_Prj/dorothyp
 ## 확인 필요
 
 - [x] 도메인 https://dorothypets.co.kr · 창업 사이트 https://dorothypetfc.co.kr (2026-10-30, 서버 172.237.20.244)
-- [ ] 서치어드바이저·서치콘솔 소유확인 코드
+- [x] 서치어드바이저·서치콘솔 소유확인 (2026-10-30, app/layout.tsx verification)
 - [ ] 가맹 상담 전화가 대표전화(010-2236-8276)와 같은지
 - [ ] 사진 없는 견종(카바푸·몰키 등 그외특수견 12종 + 사이트 분류 없는 견종)은 첫 화면이 매장 사진 — 공식 사이트에 분양 글이 올라오면 `fetch_breed_photos.py`·`build_breeds.py` 다시 실행
 - [ ] 같은 견종 동의어 키워드(비숑/비숑프리제, 꼬동/꼬똥드툴레아)를 대표 페이지로 canonical 할지 — 지금은 전부 개별 색인
