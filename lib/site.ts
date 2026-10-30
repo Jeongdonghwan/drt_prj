@@ -1,8 +1,8 @@
 // 도로시펫 사이트 설정 — 연락처·지점·공식 사이트 표기 사실. 출처: dorothypet.co.kr (2026-10-27 수집, raw/site/text/)
 // 넣지 않는 것: 팝업 '90% 할인' 이벤트, '타 브랜드 대비 1/3 비용' 같은 비교 수치(근거 확인 불가), 분양가(사이트도 '상담 문의').
 
-export const SITE_URL = process.env.SITE_URL || 'https://dorothypet.example'; // TODO: SEO 사이트 도메인 확정 시 변경
-export const FRANCHISE_SITE = process.env.FRANCHISE_SITE || 'https://dorothypet-franchise.example'; // 가맹 창업 사이트(dorothypet_franchise_prj) — 도메인 확정 시 변경
+export const SITE_URL = process.env.SITE_URL || 'https://dorothypets.co.kr';
+export const FRANCHISE_SITE = process.env.FRANCHISE_SITE || 'https://dorothypetfc.co.kr'; // 가맹 창업 사이트(dorothypet_franchise_prj)
 export const BRAND = '도로시펫';
 export const BRAND_EN = 'DOROTHY PET';
 
