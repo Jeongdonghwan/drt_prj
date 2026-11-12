@@ -16,6 +16,8 @@ ADD_CITIES = ['군산', '안동', '김천', '통영', '사천', '밀양', '광�
 ADD_CORE = ['펫샵창업비용', '애견분양샵창업비용']
 STORE_PATTERNS = ['부산{}분양', '{}분양가', '{}분양', '부산{}입양', '{}입양']
 STORE_TARGET = 1050  # 1,000 + 여유 50 (사용자 요청)
+# 확장 (사용자 요청 2026-11-12): 견종 92종 전부(특수견·묘 분류 제외) × 원본 CSV에 있는 패턴 — 이미 있는 키워드는 건너뜀
+EXPAND_PATTERNS = ['{}분양', '부산{}분양', '{}분양가', '{}입양', '부산{}입양', '{}가격', '{}분양가격', '창원{}분양', '김해{}분양', '양산{}분양', '부산{}']
 
 
 def slug(kw):
@@ -48,6 +50,13 @@ def main():
             have.add(kw)
             store.append(dict(kw=kw, slug=slug(kw), set='store', impressions=0, clicks=0, dupRows=0, added=True))
     assert len(store) == STORE_TARGET, len(store)
+    allb = [b for b in breeds if 'special' not in (b['site'] or '')]
+    for pat in EXPAND_PATTERNS:
+        for b in allb:
+            kw = pat.format((b['siteName'] or b['name']).replace(' ', ''))
+            if kw in have: continue
+            have.add(kw)
+            store.append(dict(kw=kw, slug=slug(kw), set='store', impressions=0, clicks=0, dupRows=0, added=True, expand=True))
 
     ws = openpyxl.load_workbook(os.path.join(ROOT, 'raw', '애견창업 - 도로시.xlsx'), read_only=True).active
     fr, fseen = [], set()
@@ -65,17 +74,17 @@ def main():
 
     wb = openpyxl.Workbook()
     s1 = wb.active; s1.title = '키워드'
-    s1.append(['구분', '키워드', 'URL', '노출수', '클릭수', 'CSV 중복 행', '추가 키워드'])
+    s1.append(['구분', '키워드', 'URL', '노출수', '클릭수', 'CSV 중복 행', '추가 키워드', '확장(2026-11-12)'])
     green = PatternFill('solid', fgColor='E2EFDA')
     for p in store + fr:
         s1.append(['매장' if p['set'] == 'store' else '창업', p['kw'], f"/{'franchise/' if p['set'] == 'franchise' else ''}{p['slug']}/",
-                   p.get('impressions'), p.get('clicks'), p.get('dupRows') or None, 'O' if p['added'] else None])
+                   p.get('impressions'), p.get('clicks'), p.get('dupRows') or None, 'O' if p['added'] else None, 'O' if p.get('expand') else None])
         if p['added']:
             for c in s1[s1.max_row]: c.fill = green
     for c in s1[1]: c.font = Font(bold=True)
     s1.column_dimensions['B'].width = 28; s1.column_dimensions['C'].width = 40
-    wb.save(os.path.join(ROOT, 'keywords', '도로시펫_키워드_매장1050_창업1000.xlsx'))
-    print(f'매장 {len(store)}개 (CSV {len(rows)}행 중 중복 {sum(p["dupRows"] for p in store)}행 → {sum(not p["added"] for p in store)} + 추가 {sum(p["added"] for p in store)}) · 창업 {len(fr)}개 (원본 {len(fr) - 86} + 추가 86)')
+    wb.save(os.path.join(ROOT, 'keywords', '도로시펫_키워드_매장확장_창업1000.xlsx'))
+    print(f'매장 {len(store)}개 (CSV {len(rows)}행 중 중복 {sum(p["dupRows"] for p in store)}행 → {sum(not p["added"] for p in store)} + 추가 {sum(p["added"] and not p.get("expand") for p in store)} + 확장 {sum(bool(p.get("expand")) for p in store)}) · 창업 {len(fr)}개 (원본 {len(fr) - 86} + 추가 86)')
 
 
 if __name__ == '__main__':
