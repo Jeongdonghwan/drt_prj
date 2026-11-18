@@ -187,7 +187,7 @@ export function composeStore(p: StorePage) {
         `${pl.label} 보호자님이 많이 묻는 것은 건강 확인과 사후관리입니다. 건강은 동물병원에서 직접 확인하고, 분양 뒤 상담은 추가 비용이 없습니다.`,
         `${pl.label}에서 ${name} 분양을 정하면 계약서에 상태와 주의사항을 적고, 사료 급여와 적응 기간을 함께 안내합니다.`,
       ], s, 'rgb').slice(0, 2),
-      /경남|창원|김해|양산|거제|진해|마산|장유/.test(pl.label) || !/구/.test(pl.label)
+      /경남|울산|창원|김해|양산|거제|진해|마산|장유|진주/.test(pl.label) || !/구/.test(pl.label)
         ? `${pl.label}에서 부산 사상구까지 오기 어려우면, 매장 상담으로 분양을 정한 뒤 홈딜리버리로 집까지 데려다줍니다.`
         : `${pl.label}에서는 부산본점(사상구 주례동)으로 방문 예약 후 오시면 됩니다.`,
     ].filter(Boolean),
@@ -215,7 +215,7 @@ export function composeStore(p: StorePage) {
   // 같은 견종 페이지끼리 섹션 구성이 달라지도록 선택 섹션 7개 중 4개를 슬러그 해시로 고른다 (의도 섹션은 항상)
   const OPT = ['gallery', 'similar', 'adopt', 'promises', 'delivery', 'branches'] as const;
   const mods = new Set<string>(rotate([...OPT], s, 'mods').slice(0, 4));
-  const showDelivery = !!pl && (/경남|창원|김해|양산|거제|진해|마산|장유/.test(pl.label) || pl.scope === '시') || t === 'sale' && hash(s) % 2 === 0;
+  const showDelivery = !!pl && (/경남|울산|창원|김해|양산|거제|진해|마산|장유|진주/.test(pl.label) || pl.scope === '시') || t === 'sale' && hash(s) % 2 === 0;
 
   return {
     title, description, lead, summary: rotate(summary, s, 'sum').slice(0, 3), kindWord, mods, care3,

@@ -36,6 +36,8 @@ export const Header = () => (
       <nav className="nav">
         <Link href="/#breeds">분양</Link>
         <Link href="/area/">전체 안내</Link>
+        <Link href="/blog/">가이드</Link>
+        <Link href="/about/">소개</Link>
         <a href={FRANCHISE_SITE} target="_blank" rel="noopener">가맹 창업</a>
         <a href={LINKS.home} target="_blank" rel="noopener">공식 사이트</a>
         <a href={tel} className="nav-call"><IconPhone />{CONTACT.phone}</a>

@@ -2,14 +2,18 @@
 
 먼저 `SITE.md`를 읽는다. 키워드 원본·추가 규칙, 데이터 출처, 넣지 않은 문구, 디자인, 색인 지표, 확인 필요 항목이 모두 거기 있다.
 
-## 현재 상태 (2026-10-27)
+## 현재 상태 (2026-11-18)
+- 매장 2,593쪽(CSV 953 + 추가 97 + 확장 543 + 확장2 1,000 `scripts/expand_keywords.py`, 2026-11-18 사용자 요청 "천 개 더") 전부 한 번에 오픈(단계 없음). /about/ 소개·llms.txt·분양 가이드 블로그 추가.
+- 빌드·배포는 GitHub Actions(`.github/workflows/deploy.yml`: main 푸시 + 06:00 KST) → deploy 브랜치 → 서버 `/var/www/dorothypet` 매시 cron. og 이미지는 저장소에 있음(public/og, 새 페이지 만들면 로컬에서 `python -I scripts/make_og.py` 후 커밋).
+- 블로그 `/blog/` 45편(`content/blog/NN-slug.md`, 2026-11-18부터 30일 1·2편 번갈아, `lib/blog.ts` 가 date ≤ 오늘(KST)만 공개). 날짜 재배정은 `python -I scripts/schedule_posts.py <시작일>`.
 - 매장 1,593(CSV 953 + 추가 97 + 확장 543, 2026-11-12) + 메인·전체 안내 빌드. check_all 전부 통과.
 - 가맹 창업은 별도 사이트 `C:\side_Prj\dorothypet_franchise_prj`(사용자 요청 2026-10-28: 창업은 따로 랜딩 사이트). 이 사이트에는 창업 페이지를 두지 않고 헤더·하단 바에서 `FRANCHISE_SITE`로 링크만. 키워드·지역 데이터(`data/pages.json`·`regions.json`)는 여기서 만들어 창업 사이트로 복사한다.
 - 로컬: `npx next build` 후 `python -I -m http.server 18938 --bind 127.0.0.1 --directory out`
 
 ## 규칙
 - 대답과 중간 안내는 한국어.
-- 매장 키워드는 사용자가 준 CSV를 빼지 않고 쓴다. 추가는 사용자가 요청한 만큼만(97개 `STORE_TARGET` + 2026-11-12 확장 543개 `EXPAND_PATTERNS`, `scripts/select_keywords.py`).
+- 매장 키워드는 사용자가 준 CSV를 빼지 않고 쓴다. 추가는 사용자가 요청한 만큼만(97개 `STORE_TARGET` + 2026-11-12 확장 543개 `EXPAND_PATTERNS` + 2026-11-18 확장 1,000개 `scripts/expand_keywords.py`).
+- 블로그 글은 지역 없는 질문형(절차·준비·건강·견종 관리)만, 가격·통계 숫자 없이, 내부 링크는 실제 페이지만. 대구 사이트(dorothypet_dg_prj)와 글 주제를 겹치지 않게 한다(부산: 절차·생활, 대구: 견종·품종).
 - 분양 목록 건수('○○건') 표시 안 함(사용자 요청 2026-10-28). 견종 페이지에는 그 견종 사진만 — 그외특수견·묘 분류는 분양 글 제목이 그 견종인 사진만(`build_breeds.py`).
 - 분양가·창업 비용 숫자, 할인, 비교 수치('1/3') 넣지 않기. 사실은 공식 사이트·공공데이터에 있는 것만.
 - 디자인 AI 티 금지(`~/.claude/skills/web-design`), 대량 페이지는 `~/.claude/skills/programmatic-seo`, 출시 전 `~/.claude/skills/site-launch` check_all 통과.

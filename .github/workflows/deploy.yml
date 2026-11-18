@@ -1,0 +1,31 @@
+# 빌드·배포를 GitHub 가 한다 (PC 에서 빌드하지 않음). main 푸시마다 + 매일 06:00 KST.
+# scripts/deploy.sh 가 out/ 을 deploy 브랜치로 force push → 서버 cron 이 매시 받아간다. og 이미지는 저장소에 있음(public/og).
+name: deploy
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 21 * * *'   # 06:00 KST
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: build + push deploy
+        run: |
+          git config user.name deploy-bot
+          git config user.email deploy-bot@users.noreply.github.com
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          URL=$(sed -n "s/.*SITE_URL || '\([^']*\)'.*/\1/p" lib/site.ts)
+          echo "URL=$URL"
+          bash scripts/deploy.sh "$URL"

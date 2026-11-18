@@ -4678,6 +4678,23 @@
 "dogs": 13524,
 "cats": 61,
 "scope": "구"
+},
+"울산": {
+"label": "울산광역시",
+"households": 502539,
+"onePct": 38,
+"dogs": 57837,
+"cats": 274,
+"scope": "시"
+},
+"진주": {
+"label": "진주시",
+"gu": "진주시",
+"households": 163600,
+"onePct": 44,
+"dogs": 16493,
+"cats": 119,
+"scope": "구"
 }
 }
 }
