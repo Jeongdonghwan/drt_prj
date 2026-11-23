@@ -402,3 +402,26 @@ body { padding-bottom: 66px; }
 .post-ul li::before { content: ""; position: absolute; left: 0; top: 15px; width: 7px; height: 7px; background: var(--green-2); }
 .prose p a { text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 640px) { .post-list a { grid-template-columns: 88px 1fr; gap: 14px; } .post-list img { width: 88px; } .post-list svg { display: none; } }
+
+/* 키워드 페이지 — 레이 모범 구조(2026-11-24): h1 수식어, 핵심 요약 상자, 번호 절(한 문단), 옆 칸 바로 확인 */
+.hero-title .hero-sub { display: block; margin-top: 14px; font-family: var(--sans); font-size: .44em; font-weight: 600; line-height: 1.45; letter-spacing: -.02em; color: var(--muted); }
+.x-grid { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 56px; align-items: start; padding-top: 56px; }
+.x-sum { border-top: 2px solid var(--ink); background: var(--gray); padding: 28px 28px 24px; margin-bottom: 40px; }
+.x-sum h2 { margin: 0 0 12px; font-size: 1.2rem; font-weight: 800; }
+.x-sum p { margin: 0 0 20px; color: var(--ink-2); line-height: 1.85; }
+.x-sum dl, .x-side dl { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 24px; margin: 0; }
+.x-sum dl div, .x-side dl div { border-left: 2px solid var(--mint); padding-left: 12px; }
+.x-sum dt, .x-side dt { font-size: .78rem; font-weight: 700; color: var(--green-2); }
+.x-sum dd, .x-side dd { margin: 2px 0 0; font-size: .95rem; }
+.x-article section { padding: 30px 0 12px; border-top: 1px solid var(--line); }
+.x-article h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 14px; font-size: clamp(1.18rem, 2.2vw, 1.42rem); font-weight: 800; line-height: 1.4; }
+.x-article h2 span { flex: none; font-size: .8rem; color: var(--green-2); font-variant-numeric: tabular-nums; }
+.x-article p { margin: 0 0 16px; color: var(--ink-2); font-size: 1.04rem; line-height: 1.9; max-width: 760px; }
+.x-gallery { margin: 26px 0 0; }
+.x-faq { margin-top: 44px; }
+.x-faq h2 { margin: 0 0 18px; font-size: 1.42rem; font-weight: 800; }
+.x-side { position: sticky; top: 90px; border: 1px solid var(--line); border-top: 2px solid var(--ink); padding: 24px 22px; display: grid; gap: 14px; background: #fff; }
+.x-side h3 { margin: 0; font-size: 1.05rem; font-weight: 800; }
+.x-side dl { grid-template-columns: 1fr; }
+.x-side .btn-primary { justify-content: center; }
+@media (max-width: 900px) { .x-grid { grid-template-columns: 1fr; gap: 36px; padding-top: 40px; } .x-side { position: static; } .x-sum { padding: 22px 18px; } .x-sum dl { grid-template-columns: 1fr; } }

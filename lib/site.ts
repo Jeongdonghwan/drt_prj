@@ -25,6 +25,9 @@ export const BUSINESS = {
   address: '부산광역시 사상구 가야대로 336 A동 (주례동)',
 };
 
+// 매장(이 사이트의 기준 지점) — lib/ray.ts 에서 쓴다. far: 홈딜리버리를 먼저 권하는 먼 지역
+export const STORE = { short: '부산 사상구 주례동', gu: '사상구', city: '부산', far: /경남|울산|창원|김해|양산|거제|진해|마산|장유|진주/ };
+
 export const BRANCHES = [
   { name: '부산본점', address: '부산광역시 사상구 가야대로 336 A동 (주례동)', phone: '010-2236-8276' },
   { name: '대구점', address: '대구광역시 남구 명덕로 100, 1층', phone: '010-2178-2433' },

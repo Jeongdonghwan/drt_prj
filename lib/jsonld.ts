@@ -1,4 +1,14 @@
 import { SITE_URL, BRAND, CONTACT, BUSINESS, LINKS, BRANCHES } from './site';
+import { existsSync } from 'fs';
+import { join } from 'path';
+
+// ListItem 썸네일(site-launch 필수) — 그 페이지 og 카드 /<slug>/ → /og/<slug>.jpg, 파일이 있을 때만
+const ogOf = (path: string) => {
+  const m = path.match(/^\/([^/]+)\/$/);
+  if (!m) return undefined;
+  const name = `${decodeURIComponent(m[1])}.jpg`;
+  return existsSync(join(process.cwd(), 'public', 'og', name)) ? `/og/${encodeURIComponent(name)}` : undefined;
+};
 
 export const businessJsonLd = () => ({
   '@context': 'https://schema.org',
@@ -31,7 +41,7 @@ export const pageListJsonLd = (name: string, items: { name: string; path: string
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name,
-  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: `${SITE_URL}${it.path}`, ...(it.image ? { image: `${SITE_URL}${it.image}` } : {}) })),
+  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: `${SITE_URL}${it.path}`, ...((it.image || ogOf(it.path)) ? { image: `${SITE_URL}${it.image || ogOf(it.path)}` } : {}) })),
 });
 
 // 페이지별 og·트위터 (얕은 병합 함정 피하려고 openGraph 전체를 페이지에서 만든다)
