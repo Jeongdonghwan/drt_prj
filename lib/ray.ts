@@ -1,5 +1,5 @@
 // 매장 키워드 페이지 본문 — 레이 모범 구조(2026-11-24): 분류 줄 → h1(키워드+수식어) → 설명 → 핵심 요약 상자 → 번호 절 6개(한 문단) → FAQ → 관련 링크.
-// 규칙: ~/.claude/skills/programmatic-seo/references/composer-patterns.md §5-1·§5-2. title·설명(lead)·주소는 compose-store.ts 그대로, description 은 §5-3(45~80자)으로 새로.
+// 규칙: ~/.claude/skills/programmatic-seo/references/composer-patterns.md §5-1·§5-2. 설명(lead)·주소는 compose-store.ts 그대로, title 은 h1 과 같은 '키워드 수식어 | 상호', description 은 §5-3(45~80자)으로 새로.
 // 사실은 compose-store.ts 와 같은 근거만(breeds.json 품종 특징, site.ts 분양 5단계·홈딜리버리·지점·약속). 분양가 숫자·건강 보장 기간·후기 없음.
 // 같은 견종 페이지끼리 문장이 겹치지 않게 문장 칸마다 2~3벌을 두고 슬러그 해시로 고른다. 점검: npx tsx scripts/x_check.ts
 import { StorePage, BREEDS, hash } from './data';
@@ -62,7 +62,12 @@ export function composeRay(p: StorePage) {
   })();
   const regionWords = [STORE.city, STORE.gu, STORE.short.split(' ').pop()!, pl?.label].filter(Boolean) as string[];
   const okSubs = subs.filter((x) => !regionWords.some((w) => kw.includes(w) && x.includes(w)));
-  const h1sub = pick(okSubs.length ? okSubs : subs, s, 'h1');
+  // title 앞부분 = h1 글자 그대로(키워드 + 수식어, 40자 이하) — 넘는 벌은 빼고, 다 넘으면 가장 짧은 벌을 구 단위로 자른다
+  const base = okSubs.length ? okSubs : subs;
+  const fit = base.filter((x) => `${kw} ${x}`.length <= 40);
+  let h1sub = pick(fit.length ? fit : [[...base].sort((x, y) => x.length - y.length)[0]], s, 'h1');
+  while (`${kw} ${h1sub}`.length > 40 && /[\s·,]/.test(h1sub)) h1sub = h1sub.replace(/[\s·,]+[^\s·,]*$/, '');
+  const title = `${kw} ${h1sub} | ${BRAND}`;
 
   // ---- 핵심 요약: 결론 3~4문장 ----
   const summary = para('sum', [
@@ -287,7 +292,7 @@ export function composeRay(p: StorePage) {
   if (far) facts[b ? 2 : 1] = ['먼 곳', '홈딜리버리로 집 앞까지'];
 
   return {
-    title: c.title, description, heroImg: c.heroImg, kindWord: c.kindWord, name, store,
+    title, description, heroImg: c.heroImg, kindWord: c.kindWord, name, store,
     cat: c.eyebrow, h1sub, lead: c.lead, summary, facts, sections, faq,
     gallery: b ? c.gallery.slice(0, 3) : [],
     closing: c.closing,
