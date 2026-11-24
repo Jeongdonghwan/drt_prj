@@ -24,7 +24,7 @@ for (const p of pages) {
   const h = `${p.kw} ${c.h1sub}`.replace(/\s+/g, ''); h1.set(h, (h1.get(h) || 0) + 1);
   desc.set(c.description, (desc.get(c.description) || 0) + 1); dl.push(c.description.length);
   titles.set(c.title, (titles.get(c.title) || 0) + 1); tl.push(c.title.length);
-  { const head = c.title.split(' | ')[0]; if (head !== `${p.kw} ${c.h1sub}` || head.length > 40 || c.title.length > 60 || c.title.split(' | ').length !== 2) { tBad++; if (tBad < 4) console.log('title 어긋남:', c.title); } }
+  { const head = c.title.split(' | ')[0]; if (head !== `${p.kw} ${c.h1sub}` || head.length > 40 || c.title.length > 40) { tBad++; if (tBad < 4) console.log('title 어긋남:', c.title); } }
   lens.push(len); c.sections.forEach((x) => plens.push(x.p.replace(/\s/g, '').length));
   kwH2 += c.sections.filter((x) => x.h.includes(p.kw)).length;
   const text = [c.lead, c.summary, ...c.sections.flatMap((x) => [x.h, x.p]), ...c.faq.flatMap((f) => [f.q, f.a])].join(' ');
@@ -43,7 +43,7 @@ const randomPairs = Array.from({ length: 400 }, (_, i) => [pages[rnd(`a${i}`, pa
 
 console.log(`페이지 ${pages.length}`);
 console.log(`description 길이 ${Math.min(...dl)}~${Math.max(...dl)} (45~80 밖 ${dl.filter((x) => x < 45 || x > 80).length}) · 중복 ${[...desc.values()].filter((v) => v > 1).length}`);
-console.log(`title 길이 ${Math.min(...tl)}~${Math.max(...tl)} · 중복 ${[...titles.values()].filter((v) => v > 1).length} · h1 불일치·길이 초과 ${tBad}`);
+console.log(`title 길이 ${Math.min(...tl)}~${Math.max(...tl)} · 상호 붙은 쪽 ${[...titles.keys()].filter((x) => x.includes(' | ')).length} · 상호 뺀 쪽 ${[...titles.keys()].filter((x) => !x.includes(' | ')).length} · 중복 ${[...titles.values()].filter((v) => v > 1).length} · h1 불일치·길이 초과 ${tBad}`);
 console.log(`h1 중복 ${[...h1.values()].filter((v) => v > 1).length} · 조사 오류 ${josaBad}`);
 console.log(`본문(설명+요약+절+FAQ답, 공백 제외) 평균 ${Math.round(avg(lens))} · 최소 ${Math.min(...lens)} · 최대 ${Math.max(...lens)}`);
 console.log(`절 문단 평균 ${Math.round(avg(plens))} · 최소 ${Math.min(...plens)} · 최대 ${Math.max(...plens)} · 키워드 든 h2 평균 ${(kwH2 / pages.length).toFixed(1)}개`);

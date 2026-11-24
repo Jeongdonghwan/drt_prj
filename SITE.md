@@ -85,3 +85,4 @@ python -I ~/.claude/skills/site-launch/scripts/check_all.py C:/side_Prj/dorothyp
 - ItemList 항목마다 og 썸네일(`lib/jsonld.ts` ogOf, 파일 있을 때만) — SEO 구조 게이트 미달 2건 해소.
 - 측정(`npx tsx scripts/x_check.ts`): h1 중복 0 · description 56~80자, 중복 0 · 조사 오류 0 · 절 문단 평균 191자(공백 제외) · 같은 문장 같은 견종 평균 25%(최대 49%), 같은 동네 25%, 무작위 15% · check_all: SEO 구조·중복 문서(표본 본문 평균 1,707자, 같은 문장 평균 5%)·AI 티·화면 버그·답 페이지 틀 통과, FAQ·Q&A 미달(/qna/ 없음 — 이번 작업 전부터)
 - title 규칙(2026-11-24): 키워드 페이지 title = h1 과 같은 '키워드 수식어 | 상호'(키워드+수식어 40자·전체 60자 이하, og·twitter title 동일). x_check: title 중복 0 · h1 불일치 0
+- title 40자 보정(2026-11-24): title 전체 40자 이하, 넘으면 상호를 뺀다(og:site_name 은 상호 유지). x_check: 중복 0 · h1 불일치 0

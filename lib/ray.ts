@@ -67,7 +67,9 @@ export function composeRay(p: StorePage) {
   const fit = base.filter((x) => `${kw} ${x}`.length <= 40);
   let h1sub = pick(fit.length ? fit : [[...base].sort((x, y) => x.length - y.length)[0]], s, 'h1');
   while (`${kw} ${h1sub}`.length > 40 && /[\s·,]/.test(h1sub)) h1sub = h1sub.replace(/[\s·,]+[^\s·,]*$/, '');
-  const title = `${kw} ${h1sub} | ${BRAND}`;
+  // title 전체 40자 이하(네이버 권장) — 넘으면 상호를 뺀다(og:site_name 에 상호가 따로 있다)
+  const withBrand = `${kw} ${h1sub} | ${BRAND}`;
+  const title = withBrand.length <= 40 ? withBrand : `${kw} ${h1sub}`;
 
   // ---- 핵심 요약: 결론 3~4문장 ----
   const summary = para('sum', [
